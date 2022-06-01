@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GstSaralPro">
+<listeners>
+<listener class-name="pro.saral.utilities.Reporting"/>
+</listeners>
+<test name="GstSaral Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<!--<class name="pro.saral.testCases.TC_LoginTest_002"/>-->
+<!--<class name="pro.saral.testCases.EntityMaster_test"/>-->
+<!--<class name="pro.saral.testCases.UserManagement_test"/>-->
+<!--<class name="pro.saral.testCases.Tds_Stepper_Test"/>-->
+<!--<class name="pro.saral.testCases.Employee_Test"/>-->
+<!--<class name="pro.saral.testCases.Deductee_Test"/>-->
+<!--<class name="pro.saral.testCases.Settings_Test"/>-->
+<!--<class name="pro.saral.testCases.AChallan_Test"/>-->
+<!--<class name="pro.saral.testCases.ADeduction_Test"/>-->
+<class name="pro.saral.testCases.Aimport_Test"/>
+<!--<class name="pro.saral.testCases.AChallan_Mapping_Test"/>-->
+<!--<class name="pro.saral.testCases.APredict_Default_Test"/>-->
+<!--<class name="pro.saral.testCases.AEreturn_Test"/>-->
+</classes>
+</test>
+</suite>

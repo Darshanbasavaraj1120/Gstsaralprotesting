@@ -1,0 +1,350 @@
+package pro.saral.pageObject;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import pro.saral.testCases.BaseClass;
+import pro.saral.utilities.ReadConfig;
+import pro.saral.utilities.XLUtils;
+import pro.saral.utilities.ReadConfig.Constants;
+
+public class Employee extends BaseClass {
+	
+	WebDriver idriver;
+	ReadConfig readconfig=new ReadConfig();
+	static XLUtils excelutils= new XLUtils();
+	static String deductorexcelfilepath=Constants.Deductor_File_Path;
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	Actions action = new Actions(driver);
+	int j=0;
+	public Employee(WebDriver rdriver) throws IOException
+	{
+		idriver=rdriver;
+		PageFactory.initElements(rdriver, this);
+		excelutils.EntityExcel(deductorexcelfilepath, "Entity");
+	}
+	@FindBy(id="TDS")
+	@CacheLookup
+	WebElement entity;
+	
+	@FindBy(xpath="//tbody/tr[3]/td[3]/div[1]")
+	@CacheLookup
+	WebElement client;
+	
+	@FindBy(id="Employee")
+	@CacheLookup
+	WebElement tabemployee;
+	
+	@FindBy(xpath="(//label[@class='checkbox checkbox-primary'])[2]")
+	@CacheLookup
+	WebElement checkboxone;
+	
+	@FindBy(xpath="(//label[@class='checkbox checkbox-primary'])[1]")
+	@CacheLookup
+	WebElement checkboxall;
+
+	@FindBy(id="btn-addIcon-empDedMaster")
+	@CacheLookup
+	WebElement employeeadd;
+	
+	@FindBy(id="txt-name-emp")
+	@CacheLookup
+	WebElement txtempname;
+	
+	@FindBy(xpath="(//input[@name='pan'])[2]")
+	@CacheLookup
+	WebElement txtemppan;
+	
+	@FindBy(id="rDatePickerId-dtf-employmentFrom-emp")
+	@CacheLookup
+	WebElement txtempfromdate;
+	
+	@FindBy(id="txt-designation-emp")
+	@CacheLookup
+	WebElement txtempdesignation;
+	
+	@FindBy(id="txt-panRefNo-deductee")
+	@CacheLookup
+	WebElement txtemprefno;
+	
+	@FindBy(id="txt-address-emp")
+	@CacheLookup
+	WebElement txtempaddress;
+	
+	@FindBy(id="rDatePickerId-dtf-employmentTo-emp")
+	@CacheLookup
+	WebElement txtemptodate;
+	
+	@FindBy(id="ddl-taxCategory-emp")
+	@CacheLookup
+	WebElement txtempcategory;
+	
+	@FindBy(id="txt-emailId")
+	@CacheLookup
+	WebElement txtempemailid;
+	
+	@FindBy(id="btn-ModalSaveUpdate-emp")
+	@CacheLookup
+	WebElement btnempsave;
+	
+	@FindBy(xpath="//span[contains(text(),'First 5 are character, next 4 are digits and last ')]")
+	@CacheLookup
+	WebElement panvalidation;
+	
+	@FindBy(xpath="//span[contains(text(),'Invalid date')]")
+	@CacheLookup
+	WebElement datevalidation;
+	
+	@FindBy(xpath="//div[@class='toast show']")
+	@CacheLookup
+	WebElement empsavenotification;
+	
+	@FindBy(xpath="//div[contains(text(),'PAN Number Already Exists.')]")
+	@CacheLookup
+	WebElement empduplicatesavenotification;
+	
+	@FindBy(id="btn-editIcon-EmpTable-0")
+	@CacheLookup
+	WebElement btnedit;
+	
+	@FindBy(id="Del-Emp-Ded")
+	@CacheLookup
+	WebElement btnddelete;
+	
+	@FindBy(id="btn-ModalSaveUpdate-emp")
+	@CacheLookup
+	WebElement btnupdate;
+	
+	@FindBy(xpath="//button[@class='btn2 button2 btn-danger btn-sm Ripple-parent']")
+	@CacheLookup
+	WebElement deleteconfirm;
+	
+	
+		public void tabempclick()
+	{
+		driver.navigate().refresh();
+		WebDriverWait wait=new WebDriverWait(idriver, 30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Employee")));
+		tabemployee.click();
+		
+	}
+	public void clickoncheckboxone()
+	{
+		checkboxone.click();
+	}
+	public void clickoncheckboxall()
+	{
+		checkboxall.click();
+	}
+	public void empaddclick()
+	{
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		wait.until(ExpectedConditions.elementToBeClickable(employeeadd));
+		employeeadd.click();
+	}
+	public void entityclick()
+	{
+		entity.click();
+	}
+	public void btnempsaveclick()
+	{
+		btnempsave.click();
+	}
+	public void clientclick()
+	{
+		client.click();
+	}
+	public void entityhover()
+	{
+	Actions action = new Actions(driver);
+	action.moveToElement(entity).perform();
+	}
+	public void panvalidationcheck()
+	{
+		panvalidation.isDisplayed();
+	}
+	public void datevalidationcheck()
+	{
+		datevalidation.isDisplayed();
+	}
+	public void empname(String name)
+	{
+		txtempname.sendKeys(name);
+	}
+	public void emppan(String pan)
+	{
+		txtemppan.sendKeys(pan);
+	}
+	public void empfromdate(String fromdate)
+	{	
+		txtempfromdate.sendKeys(fromdate);
+	}
+	public void emptodate(String todate)
+	{
+		txtemptodate.sendKeys(todate);
+	}
+	public void empdesignation(String designation)
+	{
+		txtempdesignation.sendKeys(designation);
+	}
+	public void emprefno(String refno)
+	{
+		txtemprefno.sendKeys(refno);
+	}
+	public void empaddress(String address)
+	{
+		txtempaddress.sendKeys(address);
+	}
+	public void empcategory(String category)
+	{
+		txtempcategory.sendKeys(category);
+	}
+	public void empemailid(String emailid)
+	{
+		txtempemailid.sendKeys(emailid);
+	}
+	public void empsavenotification()
+	{
+		WebDriverWait wait=new WebDriverWait(idriver, 30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Employee")));
+		empsavenotification.isEnabled();
+	}
+	public void empduplicatenotification()
+	{
+		WebDriverWait wait=new WebDriverWait(idriver, 30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Employee")));
+		empduplicatesavenotification.isDisplayed();
+	}
+	public void btneditclick()
+	{
+		btnedit.click();
+	}
+	public void btndeleteclick()
+	{
+		btnddelete.click();
+	}
+	public void btnupdateclick()
+	{
+		btnupdate.click();
+	}
+	public void btndeleteconfirmlick()
+	{
+		deleteconfirm.click();
+	}
+	public void mandatory_check()
+	{
+		tabempclick();
+		empaddclick();
+		btnempsaveclick();
+		readconfig.ismandatory(txtempname);
+		readconfig.ismandatory(txtemppan);
+		readconfig.ismandatory(txtempcategory);	
+	}
+	public void pan_validation()
+	{
+		tabempclick();
+		empaddclick();
+		emppan("HSNH99NH");
+		panvalidationcheck();
+	}
+	public void date_validation()
+	{
+		tabempclick();
+		empaddclick();
+		empfromdate("01-04");
+		btnempsaveclick();
+		datevalidationcheck();
+	}
+	public void enter_mandatory_fields()
+	{
+		tabempclick();
+		empaddclick();
+		empname(excelutils.getCellData(41, 0));
+		emppan(excelutils.getCellData(41, 1));
+		empcategory(excelutils.getCellData(41, 7));
+		btnempsaveclick();
+		empsavenotification();
+	}
+	public void enter_all_fields()
+	{
+		tabempclick();
+		empaddclick();
+		empname(excelutils.getCellData(40, 0));
+		emppan(excelutils.getCellData(40, 1));
+		empdesignation(excelutils.getCellData(40, 3));
+		emprefno(excelutils.getCellData(40, 4));
+		empaddress(excelutils.getCellData(40, 5));
+		empcategory(excelutils.getCellData(40, 7));
+		empemailid(excelutils.getCellData(40, 8));
+		empcategory(excelutils.getCellData(40, 9));
+		btnempsaveclick();
+		empsavenotification();
+	}
+	public void enter_all_fields_check_duplication()
+	{
+		tabempclick();
+		empaddclick();
+		emppan(excelutils.getCellData(40, 1));
+		empname(excelutils.getCellData(40, 0));
+		empduplicatenotification();
+
+	}
+	public void edit_fields()
+	{
+		tabempclick();
+		btneditclick();
+		txtempname.clear();
+		empname("-pro");
+		btnupdateclick();
+		empsavenotification();
+	}
+	public void delete_single_fields()
+	{
+		tabempclick();
+		clickoncheckboxone();
+		btndeleteclick();
+		btndeleteconfirmlick();
+		empsavenotification();
+	}
+	public void delete_all_fields()
+	{
+		tabempclick();
+		clickoncheckboxall();
+		btndeleteclick();
+		btndeleteconfirmlick();
+		empsavenotification();
+	}
+	public void differentpancases() throws InterruptedException{
+		tabempclick();
+		empaddclick();
+		empname(excelutils.getCellData(42, 0));
+		emppan(excelutils.getCellData(43, 1));
+		empcategory(excelutils.getCellData(41, 7));
+		btnempsaveclick();
+		empsavenotification();
+		Thread.sleep(3000);
+		empaddclick();
+		empname(excelutils.getCellData(42, 0));
+		emppan(excelutils.getCellData(44, 1));
+		empcategory(excelutils.getCellData(41, 7));
+		btnempsaveclick();
+		Thread.sleep(3000);
+		empaddclick();
+		empname(excelutils.getCellData(42, 0));
+		emppan(excelutils.getCellData(44, 1));
+		empcategory(excelutils.getCellData(41, 7));
+		btnempsaveclick();
+		
+	}
+}
