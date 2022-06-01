@@ -10,14 +10,11 @@
     <classes>
       <class name="pro.saral.testCases.Aimport_Test">
         <methods>
-          <include name="Upload_Valid_Text_And_Check_Sucess_Status"/>
-          <include name="Upload_Valid_Conso_And_Check_Sucess_Status"/>
+          <include name="tearDown"/>
           <include name="Upload_Valid_Excel_And_Check_Sucess_Status"/>
           <include name="Upload_Valid_Mster_Excel_And_Check_Sucess_Status"/>
           <include name="setup"/>
           <include name="Login_Entry"/>
-          <include name="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation"/>
-          <include name="Upload_Invalid_Excel_And_Check_Errors"/>
         </methods>
       </class> <!-- pro.saral.testCases.Aimport_Test -->
     </classes>
