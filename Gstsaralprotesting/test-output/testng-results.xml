@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="5" total="115" passed="110">
   <reporter-output>
   </reporter-output>
-  <suite name="GstSaralPro" duration-ms="256158" started-at="2022-06-01T12:11:01Z" finished-at="2022-06-01T12:15:17Z">
+  <suite name="GstSaralPro" duration-ms="166797" started-at="2022-06-01T12:21:47Z" finished-at="2022-06-01T12:24:33Z">
     <groups>
     </groups>
-    <test name="GstSaral Test" duration-ms="256158" started-at="2022-06-01T12:11:01Z" finished-at="2022-06-01T12:15:17Z">
-      <class name="pro.saral.testCases.Aimport_Test">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="setup" is-config="true" duration-ms="12641" started-at="2022-06-01T17:41:01Z" finished-at="2022-06-01T17:41:14Z">
+    <test name="GstSaral Test" duration-ms="166797" started-at="2022-06-01T12:21:47Z" finished-at="2022-06-01T12:24:33Z">
+      <class name="pro.saral.testCases.AChallan_Mapping_Test">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="setup" is-config="true" duration-ms="18427" started-at="2022-06-01T17:51:47Z" finished-at="2022-06-01T17:52:06Z">
           <params>
             <param index="0">
               <value>
@@ -18,75 +18,3866 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="3828" started-at="2022-06-01T17:41:14Z" finished-at="2022-06-01T17:41:17Z">
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2105" started-at="2022-06-01T17:52:06Z" data-provider="hybridData" finished-at="2022-06-01T17:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Challan page navigation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[REFRESH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Download_Template_And_Verify()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Download_Template_And_Verify" duration-ms="8466" started-at="2022-06-01T17:41:17Z" finished-at="2022-06-01T17:41:26Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1978" started-at="2022-06-01T17:52:08Z" data-provider="hybridData" finished-at="2022-06-01T17:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[search]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TDS]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Download_Template_And_Verify -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="3456" started-at="2022-06-01T17:41:26Z" finished-at="2022-06-01T17:41:29Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1222" started-at="2022-06-01T17:52:10Z" data-provider="hybridData" finished-at="2022-06-01T17:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[entity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Check_Tan_Validation()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Check_Tan_Validation" duration-ms="4503" started-at="2022-06-01T17:41:29Z" finished-at="2022-06-01T17:41:34Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="3098" started-at="2022-06-01T17:52:12Z" data-provider="hybridData" finished-at="2022-06-01T17:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[client]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Check_Tan_Validation -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="3570" started-at="2022-06-01T17:41:34Z" finished-at="2022-06-01T17:41:37Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="628" started-at="2022-06-01T17:52:15Z" data-provider="hybridData" finished-at="2022-06-01T17:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WAIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation" duration-ms="13394" started-at="2022-06-01T17:41:37Z" finished-at="2022-06-01T17:41:51Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2197" started-at="2022-06-01T17:52:15Z" data-provider="hybridData" finished-at="2022-06-01T17:52:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="3589" started-at="2022-06-01T17:41:51Z" finished-at="2022-06-01T17:41:54Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1547" started-at="2022-06-01T17:52:18Z" data-provider="hybridData" finished-at="2022-06-01T17:52:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challantab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Upload_Valid_Excel_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Excel_And_Check_Sucess_Status" duration-ms="32665" started-at="2022-06-01T17:41:54Z" finished-at="2022-06-01T17:42:27Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2123" started-at="2022-06-01T17:52:19Z" data-provider="hybridData" finished-at="2022-06-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addchallan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Upload_Valid_Excel_And_Check_Sucess_Status -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="4201" started-at="2022-06-01T17:42:27Z" finished-at="2022-06-01T17:42:31Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="3" started-at="2022-06-01T17:52:21Z" data-provider="hybridData" finished-at="2022-06-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Enter ALL Challan Fields]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Upload_Invalid_Excel_And_Check_Errors()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Invalid_Excel_And_Check_Errors" duration-ms="30636" started-at="2022-06-01T17:42:31Z" finished-at="2022-06-01T17:43:02Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="861" started-at="2022-06-01T17:52:21Z" data-provider="hybridData" finished-at="2022-06-01T17:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanincometax]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Upload_Invalid_Excel_And_Check_Errors -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="3953" started-at="2022-06-01T17:43:02Z" finished-at="2022-06-01T17:43:06Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="605" started-at="2022-06-01T17:52:22Z" data-provider="hybridData" finished-at="2022-06-01T17:52:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challansurge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Upload_Valid_Conso_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Conso_And_Check_Sucess_Status" duration-ms="54768" started-at="2022-06-01T17:43:06Z" finished-at="2022-06-01T17:44:01Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="555" started-at="2022-06-01T17:52:23Z" data-provider="hybridData" finished-at="2022-06-01T17:52:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challancess]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Upload_Valid_Conso_And_Check_Sucess_Status -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="4183" started-at="2022-06-01T17:44:01Z" finished-at="2022-06-01T17:44:05Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="548" started-at="2022-06-01T17:52:23Z" data-provider="hybridData" finished-at="2022-06-01T17:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challaninterest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Upload_Valid_Text_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Text_And_Check_Sucess_Status" duration-ms="31053" started-at="2022-06-01T17:44:05Z" finished-at="2022-06-01T17:44:36Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="546" started-at="2022-06-01T17:52:24Z" data-provider="hybridData" finished-at="2022-06-01T17:52:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanotheramount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Upload_Valid_Text_And_Check_Sucess_Status -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="4122" started-at="2022-06-01T17:44:36Z" finished-at="2022-06-01T17:44:40Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="509" started-at="2022-06-01T17:52:24Z" data-provider="hybridData" finished-at="2022-06-01T17:52:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanfee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Upload_Valid_Mster_Excel_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Mster_Excel_And_Check_Sucess_Status" duration-ms="35957" started-at="2022-06-01T17:44:40Z" finished-at="2022-06-01T17:45:16Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="487" started-at="2022-06-01T17:52:25Z" data-provider="hybridData" finished-at="2022-06-01T17:52:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challantdsothers]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Upload_Valid_Mster_Excel_And_Check_Sucess_Status -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="tearDown" is-config="true" duration-ms="820" started-at="2022-06-01T17:45:16Z" finished-at="2022-06-01T17:45:17Z">
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="559" started-at="2022-06-01T17:52:25Z" data-provider="hybridData" finished-at="2022-06-01T17:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELECTDROPDOWN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challansection]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4LC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="363" started-at="2022-06-01T17:52:26Z" data-provider="hybridData" finished-at="2022-06-01T17:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELECTDROPDOWN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challantypeofpaymrnt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200-Payable by Taxpayer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="520" started-at="2022-06-01T17:52:26Z" data-provider="hybridData" finished-at="2022-06-01T17:52:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bankchallanno]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12122.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="688" started-at="2022-06-01T17:52:27Z" data-provider="hybridData" finished-at="2022-06-01T17:52:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanbsrcode]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2311323.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1066" started-at="2022-06-01T17:52:27Z" data-provider="hybridData" finished-at="2022-06-01T17:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanremarks]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Challan Saved Successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="459" started-at="2022-06-01T17:52:29Z" data-provider="hybridData" finished-at="2022-06-01T17:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challansave]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="957" started-at="2022-06-01T17:52:29Z" data-provider="hybridData" finished-at="2022-06-01T17:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteesavenotification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="314" started-at="2022-06-01T17:52:30Z" data-provider="hybridData" finished-at="2022-06-01T17:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WAIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1100" started-at="2022-06-01T17:52:30Z" data-provider="hybridData" finished-at="2022-06-01T17:52:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[26.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="679" started-at="2022-06-01T17:52:31Z" data-provider="hybridData" finished-at="2022-06-01T17:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductiontab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1987" started-at="2022-06-01T17:52:32Z" data-provider="hybridData" finished-at="2022-06-01T17:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[28.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adddeduction]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="481" started-at="2022-06-01T17:52:34Z" data-provider="hybridData" finished-at="2022-06-01T17:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[29.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2" started-at="2022-06-01T17:52:35Z" data-provider="hybridData" finished-at="2022-06-01T17:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Add New Employee Button from Deduction]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="645" started-at="2022-06-01T17:52:35Z" data-provider="hybridData" finished-at="2022-06-01T17:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[31.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addnewemployee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1102" started-at="2022-06-01T17:52:35Z" data-provider="hybridData" finished-at="2022-06-01T17:52:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addemployee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="746" started-at="2022-06-01T17:52:36Z" data-provider="hybridData" finished-at="2022-06-01T17:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="857" started-at="2022-06-01T17:52:37Z" data-provider="hybridData" finished-at="2022-06-01T17:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteepan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NUYPS7787N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="524" started-at="2022-06-01T17:52:38Z" data-provider="hybridData" finished-at="2022-06-01T17:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empdesignation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="797" started-at="2022-06-01T17:52:38Z" data-provider="hybridData" finished-at="2022-06-01T17:52:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[36.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empmailid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc@abc.abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="840" started-at="2022-06-01T17:52:39Z" data-provider="hybridData" finished-at="2022-06-01T17:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[37.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empaddress]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[RAJAJINAGAR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="849" started-at="2022-06-01T17:52:40Z" data-provider="hybridData" finished-at="2022-06-01T17:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[38.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emprefnum]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Relyon2123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="560" started-at="2022-06-01T17:52:41Z" data-provider="hybridData" finished-at="2022-06-01T17:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELECTDROPDOWN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empcategory]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Others (below 60 years)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="564" started-at="2022-06-01T17:52:41Z" data-provider="hybridData" finished-at="2022-06-01T17:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empsave]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1420" started-at="2022-06-01T17:52:42Z" data-provider="hybridData" finished-at="2022-06-01T17:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[41.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteesavenotification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1029" started-at="2022-06-01T17:52:43Z" data-provider="hybridData" finished-at="2022-06-01T17:52:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1007" started-at="2022-06-01T17:52:45Z" data-provider="hybridData" finished-at="2022-06-01T17:52:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[43.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductiontab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1358" started-at="2022-06-01T17:52:46Z" data-provider="hybridData" finished-at="2022-06-01T17:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[44.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adddeduction]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="556" started-at="2022-06-01T17:52:47Z" data-provider="hybridData" finished-at="2022-06-01T17:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="800" started-at="2022-06-01T17:52:47Z" data-provider="hybridData" finished-at="2022-06-01T17:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[46.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[employeeclick]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="764" started-at="2022-06-01T17:52:48Z" data-provider="hybridData" finished-at="2022-06-01T17:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[47.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELECTDROPDOWN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsection]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[192-92A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="720" started-at="2022-06-01T17:52:49Z" data-provider="hybridData" finished-at="2022-06-01T17:52:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[48.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELECTDROPDOWN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionremark]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[A-LOWER DEDUCTION U/S 197]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="913" started-at="2022-06-01T17:52:50Z" data-provider="hybridData" finished-at="2022-06-01T17:52:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionamount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="661" started-at="2022-06-01T17:52:51Z" data-provider="hybridData" finished-at="2022-06-01T17:52:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionincometax]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="798" started-at="2022-06-01T17:52:51Z" data-provider="hybridData" finished-at="2022-06-01T17:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[51.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionincometax]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="727" started-at="2022-06-01T17:52:52Z" data-provider="hybridData" finished-at="2022-06-01T17:52:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[52.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsurgerate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="529" started-at="2022-06-01T17:52:53Z" data-provider="hybridData" finished-at="2022-06-01T17:52:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsurgerate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="703" started-at="2022-06-01T17:52:53Z" data-provider="hybridData" finished-at="2022-06-01T17:52:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsurgeamount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="670" started-at="2022-06-01T17:52:54Z" data-provider="hybridData" finished-at="2022-06-01T17:52:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsurgeamount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="664" started-at="2022-06-01T17:52:55Z" data-provider="hybridData" finished-at="2022-06-01T17:52:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductioncessrate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="521" started-at="2022-06-01T17:52:55Z" data-provider="hybridData" finished-at="2022-06-01T17:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[57.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductioncessrate]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="644" started-at="2022-06-01T17:52:56Z" data-provider="hybridData" finished-at="2022-06-01T17:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[58.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductioncessamount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="566" started-at="2022-06-01T17:52:57Z" data-provider="hybridData" finished-at="2022-06-01T17:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[59.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductioncessamount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1075" started-at="2022-06-01T17:52:57Z" data-provider="hybridData" finished-at="2022-06-01T17:52:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[us197certno]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[RSL1234553]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="195" started-at="2022-06-01T17:52:58Z" data-provider="hybridData" finished-at="2022-06-01T17:52:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[61.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[certnoverification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="671" started-at="2022-06-01T17:52:58Z" data-provider="hybridData" finished-at="2022-06-01T17:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsavebutton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1551" started-at="2022-06-01T17:52:59Z" data-provider="hybridData" finished-at="2022-06-01T17:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteesavenotification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2" started-at="2022-06-01T17:53:01Z" data-provider="hybridData" finished-at="2022-06-01T17:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Map]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="380" started-at="2022-06-01T17:53:01Z" data-provider="hybridData" finished-at="2022-06-01T17:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[65.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WAIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="990" started-at="2022-06-01T17:53:01Z" data-provider="hybridData" finished-at="2022-06-01T17:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="632" started-at="2022-06-01T17:53:02Z" data-provider="hybridData" finished-at="2022-06-01T17:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[67.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanmappingtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1500" started-at="2022-06-01T17:53:03Z" data-provider="hybridData" finished-at="2022-06-01T17:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[68.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanmappingcheckbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="697" started-at="2022-06-01T17:53:04Z" data-provider="hybridData" finished-at="2022-06-01T17:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[69.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mapbutton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1135" started-at="2022-06-01T17:53:05Z" data-provider="hybridData" finished-at="2022-06-01T17:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linkeddeductioncheckbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="697" started-at="2022-06-01T17:53:06Z" data-provider="hybridData" finished-at="2022-06-01T17:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[71.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unlinkcheckbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="591" started-at="2022-06-01T17:53:07Z" data-provider="hybridData" finished-at="2022-06-01T17:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[72.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unlinkallbutton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1133" started-at="2022-06-01T17:53:07Z" data-provider="hybridData" finished-at="2022-06-01T17:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[73.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[confirmunlink]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1" started-at="2022-06-01T17:53:08Z" data-provider="hybridData" finished-at="2022-06-01T17:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delete All Deduction]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1559" started-at="2022-06-01T17:53:08Z" data-provider="hybridData" finished-at="2022-06-01T17:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="964" started-at="2022-06-01T17:53:10Z" data-provider="hybridData" finished-at="2022-06-01T17:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[76.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductiontab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1269" started-at="2022-06-01T17:53:11Z" data-provider="hybridData" finished-at="2022-06-01T17:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bulkcheckbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="883" started-at="2022-06-01T17:53:12Z" data-provider="hybridData" finished-at="2022-06-01T17:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[78.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductiondelete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1490" started-at="2022-06-01T17:53:13Z" data-provider="hybridData" finished-at="2022-06-01T17:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[79.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[confirmdeleteagain]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="588" started-at="2022-06-01T17:53:15Z" data-provider="hybridData" finished-at="2022-06-01T17:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[80.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteedeletenotification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1408" started-at="2022-06-01T17:53:15Z" data-provider="hybridData" finished-at="2022-06-01T17:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[81.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[adddeduction]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="675" started-at="2022-06-01T17:53:17Z" data-provider="hybridData" finished-at="2022-06-01T17:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="907" started-at="2022-06-01T17:53:17Z" data-provider="hybridData" finished-at="2022-06-01T17:53:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[83.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[employeeclick]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="783" started-at="2022-06-01T17:53:18Z" data-provider="hybridData" finished-at="2022-06-01T17:53:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[84.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanserialno]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="860" started-at="2022-06-01T17:53:19Z" data-provider="hybridData" finished-at="2022-06-01T17:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[85.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[selectchallan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="622" started-at="2022-06-01T17:53:20Z" data-provider="hybridData" finished-at="2022-06-01T17:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELECTDROPDOWN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsection]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[192-92A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="964" started-at="2022-06-01T17:53:20Z" data-provider="hybridData" finished-at="2022-06-01T17:53:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SELECTDROPDOWN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionremark]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1134" started-at="2022-06-01T17:53:21Z" data-provider="hybridData" finished-at="2022-06-01T17:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionamount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="842" started-at="2022-06-01T17:53:23Z" data-provider="hybridData" finished-at="2022-06-01T17:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionincometax]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1016" started-at="2022-06-01T17:53:23Z" data-provider="hybridData" finished-at="2022-06-01T17:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionincometax]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10340.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="774" started-at="2022-06-01T17:53:24Z" data-provider="hybridData" finished-at="2022-06-01T17:53:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[91.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductionsavebutton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2049" started-at="2022-06-01T17:53:25Z" data-provider="hybridData" finished-at="2022-06-01T17:53:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[92.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteesavenotification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1331" started-at="2022-06-01T17:53:27Z" data-provider="hybridData" finished-at="2022-06-01T17:53:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[93.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1709" started-at="2022-06-01T17:53:29Z" data-provider="hybridData" finished-at="2022-06-01T17:53:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[94.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanmappingtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="FAIL" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1846" started-at="2022-06-01T17:53:30Z" data-provider="hybridData" finished-at="2022-06-01T17:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[95.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mappedtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="styles__tab___59Jbl Small-Body-CopySmall-body-Primary false" style="border-top-right-radius: 5px;">...</div> is not clickable at point (280, 246). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="styles__tab___59Jbl Small-Body-CopySmall-body-Primary false" style="border-top-right-radius: 5px;">...</div> is not clickable at point (280, 246). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1628" started-at="2022-06-01T17:53:32Z" data-provider="hybridData" finished-at="2022-06-01T17:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[96.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unlinkcheckbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="FAIL" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="20513" started-at="2022-06-01T17:53:34Z" data-provider="hybridData" finished-at="2022-06-01T17:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[97.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unlinkbutton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="btn2 button2 btn-danger btn-sm Ripple-parent" type="button">...</button> is not clickable at point (1262, 561). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn2 button2 btn-danger btn-sm Ripple-parent" type="button">...</button> is not clickable at point (1262, 561). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1" started-at="2022-06-01T17:53:54Z" data-provider="hybridData" finished-at="2022-06-01T17:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delete All Deduction]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1768" started-at="2022-06-01T17:53:54Z" data-provider="hybridData" finished-at="2022-06-01T17:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1300" started-at="2022-06-01T17:53:56Z" data-provider="hybridData" finished-at="2022-06-01T17:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductiontab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="FAIL" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2065" started-at="2022-06-01T17:53:57Z" data-provider="hybridData" finished-at="2022-06-01T17:53:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bulkcheckbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <label class="checkbox checkbox-primary" for="deduction-select-all">...</label> is not clickable at point (1299, 294). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="checkbox checkbox-primary" for="deduction-select-all">...</label> is not clickable at point (1299, 294). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="FAIL" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1966" started-at="2022-06-01T17:53:59Z" data-provider="hybridData" finished-at="2022-06-01T17:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deductiondelete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="btn2 icon-btn2 btn-danger Ripple-parent" type="button" id="btn-delete-challan">...</button> is not clickable at point (1276, 597). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="btn2 icon-btn2 btn-danger Ripple-parent" type="button" id="btn-delete-challan">...</button> is not clickable at point (1276, 597). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="12578" started-at="2022-06-01T17:54:01Z" data-provider="hybridData" finished-at="2022-06-01T17:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[confirmdeleteagain]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2323" started-at="2022-06-01T17:54:14Z" data-provider="hybridData" finished-at="2022-06-01T17:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[104.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteedeletenotification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1" started-at="2022-06-01T17:54:16Z" data-provider="hybridData" finished-at="2022-06-01T17:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delete All Challan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1417" started-at="2022-06-01T17:54:16Z" data-provider="hybridData" finished-at="2022-06-01T17:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[106.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24qtab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1202" started-at="2022-06-01T17:54:18Z" data-provider="hybridData" finished-at="2022-06-01T17:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[107.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challantab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1293" started-at="2022-06-01T17:54:19Z" data-provider="hybridData" finished-at="2022-06-01T17:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[108.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challanselectall]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="997" started-at="2022-06-01T17:54:20Z" data-provider="hybridData" finished-at="2022-06-01T17:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[109.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deletechallan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1580" started-at="2022-06-01T17:54:21Z" data-provider="hybridData" finished-at="2022-06-01T17:54:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[110.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[confirmdelete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="766" started-at="2022-06-01T17:54:23Z" data-provider="hybridData" finished-at="2022-06-01T17:54:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[111.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VERIFYNOTIFICATION]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[deducteedeletenotification]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1606" started-at="2022-06-01T17:54:24Z" data-provider="hybridData" finished-at="2022-06-01T17:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[112.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tdstab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="FAIL" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="2122" started-at="2022-06-01T17:54:25Z" data-provider="hybridData" finished-at="2022-06-01T17:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[113.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[employeetab]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="tab tab-primary" id="Employee" href="/tds/employee">...</a> is not clickable at point (254, 143). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="tab tab-primary" id="Employee" href="/tds/employee">...</a> is not clickable at point (254, 143). Other element would receive the click: <div class="r-spinner-loader">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIK7PCN', ip: '192.168.43.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="3262" started-at="2022-06-01T17:54:27Z" data-provider="hybridData" finished-at="2022-06-01T17:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[114.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unlinkcheckbox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="654" started-at="2022-06-01T17:54:31Z" data-provider="hybridData" finished-at="2022-06-01T17:54:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[115.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empdelete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ID]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="Challan_Testcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="Challan_Testcases" duration-ms="1169" started-at="2022-06-01T17:54:31Z" data-provider="hybridData" finished-at="2022-06-01T17:54:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[116.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[confirmdelete]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_Testcases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pro.saral.testCases.AChallan_Mapping_Test@49e4cb85]" name="tearDown" is-config="true" duration-ms="1140" started-at="2022-06-01T17:54:32Z" finished-at="2022-06-01T17:54:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pro.saral.testCases.Aimport_Test -->
+      </class> <!-- pro.saral.testCases.AChallan_Mapping_Test -->
     </test> <!-- GstSaral Test -->
   </suite> <!-- GstSaralPro -->
 </testng-results>

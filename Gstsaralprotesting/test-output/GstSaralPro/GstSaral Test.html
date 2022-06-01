@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>GstSaral Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>110/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 01 17:41:01 IST 2022</td>
+<td>Started on:</td><td>Wed Jun 01 17:51:47 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>256 seconds (256158 ms)</td>
+<tr><td>Total time:</td><td>166 seconds (166797 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,349 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 95.0, CLICK, mappedtab, XPATH, </td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;styles__tab___59Jbl Small-Body-CopySmall-body-Primary false&quot; style=&quot;border-top-right-radius: 5px;&quot;&gt;...&lt;/div&gt; is not clickable at point (280, 246). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1813375175", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1813375175'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;styles__tab___59Jbl Small-Body-CopySmall-body-Primary false&quot; style=&quot;border-top-right-radius: 5px;&quot;&gt;...&lt;/div&gt; is not clickable at point (280, 246). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 97.0, CLICK, unlinkbutton, XPATH, </td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn2 button2 btn-danger btn-sm Ripple-parent&quot; type=&quot;button&quot;&gt;...&lt;/button&gt; is not clickable at point (1262, 561). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace501991708", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace501991708'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn2 button2 btn-danger btn-sm Ripple-parent&quot; type=&quot;button&quot;&gt;...&lt;/button&gt; is not clickable at point (1262, 561). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>20</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 101.0, CLICK, bulkcheckbox, XPATH, </td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label class=&quot;checkbox checkbox-primary&quot; for=&quot;deduction-select-all&quot;&gt;...&lt;/label&gt; is not clickable at point (1299, 294). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace832828638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace832828638'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label class=&quot;checkbox checkbox-primary&quot; for=&quot;deduction-select-all&quot;&gt;...&lt;/label&gt; is not clickable at point (1299, 294). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>2</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 102.0, CLICK, deductiondelete, ID, </td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn2 icon-btn2 btn-danger Ripple-parent&quot; type=&quot;button&quot; id=&quot;btn-delete-challan&quot;&gt;...&lt;/button&gt; is not clickable at point (1276, 597). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1323706655", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1323706655'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn2 icon-btn2 btn-danger Ripple-parent&quot; type=&quot;button&quot; id=&quot;btn-delete-challan&quot;&gt;...&lt;/button&gt; is not clickable at point (1276, 597). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 113.0, CLICK, employeetab, ID, </td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;tab tab-primary&quot; id=&quot;Employee&quot; href=&quot;/tds/employee&quot;&gt;...&lt;/a&gt; is not clickable at point (254, 143). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1756143301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1756143301'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;tab tab-primary&quot; id=&quot;Employee&quot; href=&quot;/tds/employee&quot;&gt;...&lt;/a&gt; is not clickable at point (254, 143). Other element would receive the click: &lt;div class=&quot;r-spinner-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KIK7PCN&apos;, ip: &apos;192.168.43.53&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sujatha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 560d16dc5f4687a25f0be31cc0a01677
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pro.saral.pageObject.UIOperation.perform(UIOperation.java:25)
+	at pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases(AChallan_Mapping_Test.java:23)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>2</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,45 +418,555 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Check_Tan_Validation()'><b>Check_Tan_Validation</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: Challan page navigation, REFRESH, , , </td>
 <td></td>
-<td>4</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>2</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation()'><b>Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 3.0, SETTEXT, search, Xpath, TDS</td>
 <td></td>
-<td>13</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Download_Template_And_Verify()'><b>Download_Template_And_Verify</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 4.0, CLICK, entity, ID, </td>
 <td></td>
-<td>8</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Upload_Invalid_Excel_And_Check_Errors()'><b>Upload_Invalid_Excel_And_Check_Errors</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 5.0, CLICK, client, XPATH, </td>
 <td></td>
-<td>30</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>3</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Upload_Valid_Conso_And_Check_Sucess_Status()'><b>Upload_Valid_Conso_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 6.0, WAIT, 24qtab, XPATH, </td>
 <td></td>
-<td>54</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Upload_Valid_Excel_And_Check_Sucess_Status()'><b>Upload_Valid_Excel_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 7.0, CLICK, 24qtab, XPATH, </td>
 <td></td>
-<td>32</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>2</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Upload_Valid_Mster_Excel_And_Check_Sucess_Status()'><b>Upload_Valid_Mster_Excel_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 8.0, CLICK, challantab, ID, </td>
 <td></td>
-<td>35</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Aimport_Test.Upload_Valid_Text_And_Check_Sucess_Status()'><b>Upload_Valid_Text_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Aimport_Test</td>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 9.0, CLICK, addchallan, ID, </td>
 <td></td>
-<td>31</td>
-<td>pro.saral.testCases.Aimport_Test@7c30a502</td></tr>
+<td>2</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: Enter ALL Challan Fields, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 11.0, SETTEXT, challanincometax, ID, 10000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 12.0, SETTEXT, challansurge, ID, 100.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 13.0, SETTEXT, challancess, ID, 100.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 14.0, SETTEXT, challaninterest, ID, 10.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 15.0, SETTEXT, challanotheramount, ID, 120.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 16.0, SETTEXT, challanfee, ID, 10.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 17.0, SETTEXT, challantdsothers, ID, 40.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 18.0, SELECTDROPDOWN, challansection, ID, 4LC</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 19.0, SELECTDROPDOWN, challantypeofpaymrnt, ID, 200-Payable by Taxpayer</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 20.0, SETTEXT, bankchallanno, ID, 12122.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 21.0, SETTEXT, challanbsrcode, ID, 2311323.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 22.0, SETTEXT, challanremarks, ID, Challan Saved Successfully</td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 23.0, CLICK, challansave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 24.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 25.0, WAIT, 24qtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 26.0, CLICK, 24qtab, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 27.0, CLICK, deductiontab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 28.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 29.0, SETTEXT, deductionname, ID, A</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: Verify Add New Employee Button from Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 31.0, CLICK, addnewemployee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 32.0, CLICK, addemployee, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 33.0, SETTEXT, empname, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 34.0, SETTEXT, deducteepan, XPATH, NUYPS7787N</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 35.0, SETTEXT, empdesignation, ID, QA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 36.0, SETTEXT, empmailid, ID, abc@abc.abc</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 37.0, SETTEXT, empaddress, ID, RAJAJINAGAR</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 38.0, SETTEXT, emprefnum, ID, Relyon2123</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 39.0, SELECTDROPDOWN, empcategory, ID, Others (below 60 years)</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 40.0, CLICK, empsave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 41.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 42.0, CLICK, 24qtab, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 43.0, CLICK, deductiontab, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 44.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 45.0, SETTEXT, deductionname, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 46.0, CLICK, employeeclick, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 47.0, SELECTDROPDOWN, deductionsection, ID, 192-92A</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 48.0, SELECTDROPDOWN, deductionremark, ID, A-LOWER DEDUCTION U/S 197</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 49.0, SETTEXT, deductionamount, ID, 10000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 50.0, CLICK, deductionincometax, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 51.0, SETTEXT, deductionincometax, ID, 1000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 52.0, CLICK, deductionsurgerate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 53.0, SETTEXT, deductionsurgerate, ID, 2.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 54.0, CLICK, deductionsurgeamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 55.0, SETTEXT, deductionsurgeamount, ID, 20.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 56.0, CLICK, deductioncessrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 57.0, SETTEXT, deductioncessrate, ID, 2.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 58.0, CLICK, deductioncessamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 59.0, SETTEXT, deductioncessamount, ID, 20.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 60.0, SETTEXT, us197certno, ID, RSL1234553</td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 61.0, VERIFYNOTIFICATION, certnoverification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 62.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 63.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: Map, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 65.0, WAIT, 24qtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 66.0, CLICK, 24qtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 67.0, CLICK, challanmappingtab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 68.0, CLICK, challanmappingcheckbox, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 69.0, CLICK, mapbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 70.0, CLICK, linkeddeductioncheckbox, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 71.0, CLICK, unlinkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 72.0, CLICK, unlinkallbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 73.0, CLICK, confirmunlink, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: Delete All Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 75.0, CLICK, 24qtab, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 76.0, CLICK, deductiontab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 77.0, CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 78.0, CLICK, deductiondelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 79.0, CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 80.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 81.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 82.0, SETTEXT, deductionname, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 83.0, CLICK, employeeclick, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 84.0, CLICK, challanserialno, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 85.0, CLICK, selectchallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 86.0, SELECTDROPDOWN, deductionsection, ID, 192-92A</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 87.0, SELECTDROPDOWN, deductionremark, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 88.0, SETTEXT, deductionamount, ID, 1000000.0</td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 89.0, CLICK, deductionincometax, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 90.0, SETTEXT, deductionincometax, ID, 10340.0</td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 91.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 92.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>2</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 93.0, CLICK, 24qtab, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 94.0, CLICK, challanmappingtab, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 96.0, CLICK, unlinkcheckbox, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: Delete All Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 99.0, CLICK, 24qtab, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 100.0, CLICK, deductiontab, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 103.0, CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>12</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 104.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>2</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: Delete All Challan, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 106.0, CLICK, 24qtab, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 107.0, CLICK, challantab, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 108.0, CLICK, challanselectall, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 109.0, CLICK, deletechallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 110.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 111.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 112.0, CLICK, tdstab, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 114.0, CLICK, unlinkcheckbox, XPATH, </td>
+<td></td>
+<td>3</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 115.0, CLICK, empdelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.AChallan_Mapping_Test.Challan_Testcases()'><b>Challan_Testcases</b><br>Test class: pro.saral.testCases.AChallan_Mapping_Test<br>Parameters: 116.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.AChallan_Mapping_Test@49e4cb85</td></tr>
 </table><p>
 </body>
 </html>

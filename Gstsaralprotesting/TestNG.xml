@@ -16,8 +16,8 @@
 <!--<class name="pro.saral.testCases.Settings_Test"/>-->
 <!--<class name="pro.saral.testCases.AChallan_Test"/>-->
 <!--<class name="pro.saral.testCases.ADeduction_Test"/>-->
-<class name="pro.saral.testCases.Aimport_Test"/>
-<!--<class name="pro.saral.testCases.AChallan_Mapping_Test"/>-->
+<!--<class name="pro.saral.testCases.Aimport_Test"/>-->
+<class name="pro.saral.testCases.AChallan_Mapping_Test"/>
 <!--<class name="pro.saral.testCases.APredict_Default_Test"/>-->
 <!--<class name="pro.saral.testCases.AEreturn_Test"/>-->
 </classes>
