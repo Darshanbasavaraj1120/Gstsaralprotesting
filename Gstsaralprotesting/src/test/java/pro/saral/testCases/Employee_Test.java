@@ -23,13 +23,13 @@ public void Login_Entry() throws InterruptedException, IOException{
 		emp.mandatory_check();
 	}
 	@Test(priority=1)
-	public void Enter_Invalid_Pan_And_Check_Validation() throws IOException
+	public void Enter_Invalid_Pan_And_Check_Validation() throws IOException, InterruptedException
 	{
 		Employee emp=new Employee(driver);
 		emp.pan_validation();
 	}
 	@Test(priority=2)
-	public void Enter_Invalid_Date_And_Check_Validation() throws IOException
+	public void Enter_Invalid_Date_And_Check_Validation() throws IOException, InterruptedException
 	{
 		Employee emp=new Employee(driver);
 		emp.date_validation();

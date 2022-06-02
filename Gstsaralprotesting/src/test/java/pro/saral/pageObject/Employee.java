@@ -251,15 +251,17 @@ public class Employee extends BaseClass {
 		readconfig.ismandatory(txtemppan);
 		readconfig.ismandatory(txtempcategory);	
 	}
-	public void pan_validation()
+	public void pan_validation() throws InterruptedException
 	{
 		empaddclick();
+		Thread.sleep(2000);
 		emppan("HSNH99NH");
 		panvalidationcheck();
 	}
-	public void date_validation()
+	public void date_validation() throws InterruptedException
 	{
 		empaddclick();
+		Thread.sleep(2000);
 		empfromdate("01-04");
 		btnempsaveclick();
 		datevalidationcheck();
