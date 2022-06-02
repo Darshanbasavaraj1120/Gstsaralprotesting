@@ -8,12 +8,13 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pro.saral.testCases.Employee_Test">
+      <class name="pro.saral.testCases.Deductee_Test">
         <methods>
-          <include name="Mandatory_Field_Check"/>
+          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="Deductee_Testcases" invocation-numbers="78"/>
         </methods>
-      </class> <!-- pro.saral.testCases.Employee_Test -->
+      </class> <!-- pro.saral.testCases.Deductee_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->

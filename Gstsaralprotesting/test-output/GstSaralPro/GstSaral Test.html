@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>GstSaral Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>84/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 02 16:38:04 IST 2022</td>
+<td>Started on:</td><td>Thu Jun 02 17:35:50 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5300 ms)</td>
+<tr><td>Total time:</td><td>62 seconds (62865 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,102 +67,433 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='pro.saral.testCases.Employee_Test.setup()'><b>setup</b><br>Test class: pro.saral.testCases.Employee_Test<br>Parameters: chrome</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=email
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DARSHAN&apos;, ip: &apos;192.168.2.30&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at pro.saral.pageObject.LoginPage.setUserName(LoginPage.java:83)
-	at pro.saral.testCases.BaseClass.setup(BaseClass.java:66)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1474957626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1474957626'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using name=email
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DARSHAN&apos;, ip: &apos;192.168.2.30&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at pro.saral.pageObject.LoginPage.setUserName(LoginPage.java:83)
-	at pro.saral.testCases.BaseClass.setup(BaseClass.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
-	at org.testng.TestNG.run(TestNG.java:1033)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div></td>
-<td>0</td>
-<td>pro.saral.testCases.Employee_Test@58ceff1</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Deductee Navigation Steps, REFRESH, , , </td>
+<td></td>
+<td>3</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Employee_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Employee_Test</td>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 3.0, SETTEXT, search, Xpath, TDS</td>
 <td></td>
 <td>0</td>
-<td>pro.saral.testCases.Employee_Test@58ceff1</td></tr>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Employee_Test.tearDown()'><b>tearDown</b><br>Test class: pro.saral.testCases.Employee_Test</td>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 4.0, CLICK, entity, ID, </td>
 <td></td>
 <td>0</td>
-<td>pro.saral.testCases.Employee_Test@58ceff1</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
 <tr>
-<td title='pro.saral.testCases.Employee_Test.Mandatory_Field_Check()'><b>Mandatory_Field_Check</b><br>Test class: pro.saral.testCases.Employee_Test</td>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 5.0, CLICK, client, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Check Mandatory Fields, REFRESH, , , </td>
+<td></td>
+<td>2</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 7.0, CLICK, deducteetab, ID, </td>
 <td></td>
 <td>0</td>
-<td>pro.saral.testCases.Employee_Test@58ceff1</td></tr>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 8.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 9.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 10.0, VERIFYNOTIFICATION, nameerrormessage, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 11.0, VERIFYNOTIFICATION, panerrormessage, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 12.0, VERIFYNOTIFICATION, codeerrormessage, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Verify Invalid Detail error Messages, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 14.0, SETTEXT, deducteepan, XPATH, NMHUS88888</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 15.0, VERIFYNOTIFICATION, invaliddeducteepanverify, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 16.0, SETTEXT, deducteerefnum, ID, 1231231.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 17.0, CLICK, invalidrefnumverify, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 18.0, VERIFYNOTIFICATION, deducteerefnumerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 19.0, SETTEXT, deducteeemailid, ID, abc.abv</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 20.0, CLICK, invalidemailerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 21.0, VERIFYNOTIFICATION, invalidemailerrorverify, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 22.0, CLICK, deducteeclose, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 23.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Enter All Fields And Save, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 25.0, SETTEXT, deducteename, ID, Darshan</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 26.0, SETTEXT, deducteerefnum, ID, Relyon1234</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 27.0, SETTEXT, deducteepan, XPATH, NYUPF6764N</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 28.0, SELECTDROPDOWN, deducteecode, ID, Other Than Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 29.0, SELECTDROPDOWN, deducteecode, ID, Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 30.0, CLICK, confirmdeducteecode, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 31.0, SETTEXT, deducteeaddress, ID, Rajaji nagar</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 32.0, SELECTDROPDOWN, deducteestate, ID, KARNATAKA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 33.0, SETTEXT, deducteeemailid, ID, abc@abc.abc</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 34.0, CLICK, 206abapplicablecheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 35.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 36.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>2</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Add Deductee Which Is Already Exist, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 38.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 39.0, SETTEXT, deducteename, ID, Darshan</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 40.0, SETTEXT, deducteepan, XPATH, NYUPF6764N</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 41.0, SELECTDROPDOWN, deducteestate, ID, KARNATAKA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 42.0, VERIFYNOTIFICATION, panalreadyexist, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 43.0, CLICK, deducteeclose, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Edit And Update Deductee, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 45.0, CLICK, editdeductee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 46.0, CLEAR, deducteename, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 47.0, CLEAR, deducteeaddress, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 48.0, CLEAR, deducteestate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 49.0, CLEAR, deducteeemailid, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 50.0, SETTEXT, deducteename, ID, Karan</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 51.0, SELECTDROPDOWN, deducteecode, ID, Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 52.0, SETTEXT, deducteeaddress, ID, Malleshwaram</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 53.0, SELECTDROPDOWN, deducteestate, ID, ANDAMAN AND NICOBAR ISLANDS</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 54.0, SETTEXT, deducteeemailid, ID, abc@abc.abd</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 55.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 56.0, VERIFYNOTIFICATION, deducteeupdatenotification, XPATH, </td>
+<td></td>
+<td>1</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Add Multiple PAN case And Save, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 58.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 59.0, SETTEXT, deducteename, ID, Darshan</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 60.0, SETTEXT, deducteepan, XPATH, PANNOTAVBL</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 61.0, SELECTDROPDOWN, deducteecode, ID, Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 62.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 63.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 64.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 65.0, SETTEXT, deducteename, ID, Darshan</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 66.0, SETTEXT, deducteepan, XPATH, PANINVALID</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 67.0, SELECTDROPDOWN, deducteecode, ID, Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 68.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 69.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>2</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 70.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 71.0, SETTEXT, deducteename, ID, Darshan</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 72.0, SETTEXT, deducteepan, XPATH, PANAPPLIED</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 73.0, SELECTDROPDOWN, deducteecode, ID, Other Than Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 74.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 75.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>2</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Delete Single Deductee, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 77.0, CLICK, singlecheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 78.0, CLICK, deletedeductee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 79.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 80.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: Delete Bulk Deductee, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 82.0, CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 83.0, CLICK, deletedeductee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 84.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
+<tr>
+<td title='pro.saral.testCases.Deductee_Test.Deductee_Testcases()'><b>Deductee_Testcases</b><br>Test class: pro.saral.testCases.Deductee_Test<br>Parameters: 85.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Deductee_Test@49e4cb85</td></tr>
 </table><p>
 </body>
 </html>
