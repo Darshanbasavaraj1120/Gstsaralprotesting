@@ -244,7 +244,6 @@ public class Employee extends BaseClass {
 	}
 	public void mandatory_check()
 	{
-		tabempclick();
 		logger.info("Clicked on Employee Tab");
 		empaddclick();
 		btnempsaveclick();
@@ -254,14 +253,12 @@ public class Employee extends BaseClass {
 	}
 	public void pan_validation()
 	{
-		tabempclick();
 		empaddclick();
 		emppan("HSNH99NH");
 		panvalidationcheck();
 	}
 	public void date_validation()
 	{
-		tabempclick();
 		empaddclick();
 		empfromdate("01-04");
 		btnempsaveclick();
@@ -269,7 +266,6 @@ public class Employee extends BaseClass {
 	}
 	public void enter_mandatory_fields()
 	{
-		tabempclick();
 		empaddclick();
 		empname(excelutils.getCellData(41, 0));
 		emppan(excelutils.getCellData(41, 1));
@@ -279,7 +275,6 @@ public class Employee extends BaseClass {
 	}
 	public void enter_all_fields()
 	{
-		tabempclick();
 		empaddclick();
 		empname(excelutils.getCellData(40, 0));
 		emppan(excelutils.getCellData(40, 1));
@@ -294,7 +289,6 @@ public class Employee extends BaseClass {
 	}
 	public void enter_all_fields_check_duplication()
 	{
-		tabempclick();
 		empaddclick();
 		emppan(excelutils.getCellData(40, 1));
 		empname(excelutils.getCellData(40, 0));
@@ -303,7 +297,6 @@ public class Employee extends BaseClass {
 	}
 	public void edit_fields()
 	{
-		tabempclick();
 		btneditclick();
 		txtempname.clear();
 		empname("-pro");
@@ -312,7 +305,6 @@ public class Employee extends BaseClass {
 	}
 	public void delete_single_fields()
 	{
-		tabempclick();
 		clickoncheckboxone();
 		btndeleteclick();
 		btndeleteconfirmlick();
@@ -320,14 +312,13 @@ public class Employee extends BaseClass {
 	}
 	public void delete_all_fields()
 	{
-		tabempclick();
 		clickoncheckboxall();
 		btndeleteclick();
 		btndeleteconfirmlick();
 		empsavenotification();
 	}
-	public void differentpancases() throws InterruptedException{
-		tabempclick();
+	public void differentpancases() throws InterruptedException
+	{
 		empaddclick();
 		empname(excelutils.getCellData(42, 0));
 		emppan(excelutils.getCellData(43, 1));

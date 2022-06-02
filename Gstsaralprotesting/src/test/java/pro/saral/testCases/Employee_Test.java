@@ -12,6 +12,8 @@ public void Login_Entry() throws InterruptedException, IOException{
 		emp.entityhover();
 		emp.entityclick();
 		emp.clientclick();
+		emp.tabempclick();
+		driver.navigate().refresh();
 	}
 	@Test(priority=0)
 	public void Mandatory_Field_Check() throws IOException
