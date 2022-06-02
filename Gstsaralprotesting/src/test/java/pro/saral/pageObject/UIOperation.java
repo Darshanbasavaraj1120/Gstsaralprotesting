@@ -73,6 +73,7 @@ public class UIOperation {
 			break;
 		case "REFRESH":
 			driver.navigate().refresh();
+			Thread.sleep(2000);
 			break;
 		default:
 		}
