@@ -245,6 +245,7 @@ public class Employee extends BaseClass {
 	public void mandatory_check()
 	{
 		tabempclick();
+		logger.info("Clicked on Employee Tab");
 		empaddclick();
 		btnempsaveclick();
 		readconfig.ismandatory(txtempname);

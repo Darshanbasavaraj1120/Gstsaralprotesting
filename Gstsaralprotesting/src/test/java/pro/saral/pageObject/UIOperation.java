@@ -2,7 +2,8 @@ package pro.saral.pageObject;
 
 import java.util.Properties;
 
-import org.openqa.selenium.Alert;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -11,10 +12,12 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UIOperation {
-	
+	public static Logger logger;
 	WebDriver driver;
 	public UIOperation(WebDriver driver){
 		this.driver = driver;
+		logger=Logger.getLogger("saralpro");
+		PropertyConfigurator.configure("Log4j.properties");
 	}
 	public void perform(Properties p,String operation,String objectName,String objectType,String value) throws Exception{
 		System.out.println("");
@@ -23,13 +26,13 @@ public class UIOperation {
 			//Perform click
 			WebDriverWait wait = new WebDriverWait(driver, 40);
 			wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(this.getObject(p, objectName, objectType)))).click();;
-//			driver.findElement(this.getObject(p, objectName, objectType)).click();
+			logger.info("Clicked on elemnt");
 			break;
 		case "SETTEXT":
 			//Set text on control
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(value);
+			logger.info("Sent Text");
 			break;
-			
 		case "GOTOURL":
 			//Get url of application
 			driver.get(p.getProperty(value));
@@ -41,10 +44,12 @@ public class UIOperation {
 		case "VERIFYNOTIFICATION":
 			//Verify notifications
 			driver.findElement(this.getObject(p,objectName,objectType)).isDisplayed();
+			logger.info("Veryfied");
 			break;
 		case "SELECTDROPDOWN":
 			Select se = new Select(driver.findElement(this.getObject(p,objectName,objectType)));
 			se.selectByVisibleText(value);
+			logger.info("Selected dropdown");
 			break;
 		case "CLEAR":
 			//Clear textbox
@@ -61,6 +66,7 @@ public class UIOperation {
 		case "UPLOAD":
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(System.getProperty("user.dir")+value);
 			System.out.println(("user.dir")+value);
+			logger.info("Uploaded File");
 			break;
 		case "ALERT":
 			driver.switchTo().alert().accept();
