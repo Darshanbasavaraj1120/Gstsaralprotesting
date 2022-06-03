@@ -44,7 +44,7 @@ public class UIOperation {
 		case "VERIFYNOTIFICATION":
 			//Verify notifications
 			driver.findElement(this.getObject(p,objectName,objectType)).isDisplayed();
-			logger.info("Veryfied");
+			logger.info("Verified");
 			break;
 		case "SELECTDROPDOWN":
 			Select se = new Select(driver.findElement(this.getObject(p,objectName,objectType)));
