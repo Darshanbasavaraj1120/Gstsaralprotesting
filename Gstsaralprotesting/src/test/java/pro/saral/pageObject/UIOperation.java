@@ -21,10 +21,10 @@ public class UIOperation {
 	}
 	public void perform(Properties p,String operation,String objectName,String objectType,String value) throws Exception{
 		System.out.println("");
+		WebDriverWait wait = new WebDriverWait(driver, 40);
 		switch (operation.toUpperCase()) {
 		case "CLICK":
 			//Perform click
-			WebDriverWait wait = new WebDriverWait(driver, 40);
 			wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(this.getObject(p, objectName, objectType)))).click();;
 			logger.info("Clicked on elemnt");
 			break;
@@ -75,6 +75,16 @@ public class UIOperation {
 			driver.navigate().refresh();
 			Thread.sleep(2000);
 			break;
+		case"UPLOADWARNING":
+			wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(this.getObject(p, objectName, objectType)))).click();
+			try {
+				driver.findElement(By.xpath("(//button[@class='btn2 button2 btn-secondary btn-sm Ripple-parent'])[2]")).click();
+				Thread.sleep(10000);
+			}
+			catch(Exception  e){
+			}
+			break;
+
 		default:
 		}
 	}	
