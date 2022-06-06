@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pro.saral.testCases.Aimport_Test">
+        <methods>
+          <include name="Upload_Valid_Text_And_Check_Sucess_Status"/>
+          <include name="Upload_Valid_Conso_And_Check_Sucess_Status"/>
+          <include name="Upload_Valid_Excel_And_Check_Sucess_Status"/>
+          <include name="Upload_Valid_Mster_Excel_And_Check_Sucess_Status"/>
+          <include name="Download_Template_And_Verify"/>
+          <include name="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation"/>
+          <include name="Upload_Invalid_Excel_And_Check_Errors"/>
+          <include name="Check_Tan_Validation"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Aimport_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
