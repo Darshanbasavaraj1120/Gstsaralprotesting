@@ -164,7 +164,7 @@ public class Tds_Stepper extends BaseClass {
 	@CacheLookup
 	WebElement TDSImport;
 	
-	@FindBy(xpath="//span[contains(text(),'Skip for manual entry')]/parent::button")
+	@FindBy(xpath="//span[contains(text(),'Go To Manual Entry')]//parent::button")
 	@CacheLookup
 	WebElement skipbutton;
 	
