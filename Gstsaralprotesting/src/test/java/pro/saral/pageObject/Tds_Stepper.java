@@ -148,7 +148,7 @@ public class Tds_Stepper extends BaseClass {
 	@CacheLookup
 	WebElement btncloseclient;
 	
-	@FindBy(id="Saral_Pro_C")
+	@FindBy(id="Saral_Pro_D")
 	@CacheLookup
 	WebElement entity1click;
 	
