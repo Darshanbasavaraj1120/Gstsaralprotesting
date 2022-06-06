@@ -8,20 +8,14 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pro.saral.testCases.Regression_Test">
+      <class name="pro.saral.testCases.Tds_Stepper_Test">
         <methods>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="Challan_Testcases" invocation-numbers="24"/>
-        </methods>
-      </class> <!-- pro.saral.testCases.Regression_Test -->
-      <class name="pro.saral.testCases.Employee_Test">
-        <methods>
-          <include name="tearDown"/>
+          <include name="Enter_All_Deductor_And_Responsible_Person_Fields"/>
           <include name="setup"/>
           <include name="Login_Entry"/>
         </methods>
-      </class> <!-- pro.saral.testCases.Employee_Test -->
+      </class> <!-- pro.saral.testCases.Tds_Stepper_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->

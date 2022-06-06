@@ -3014,3 +3014,46 @@
 2022-06-06 15:53:05,718  INFO [main] saralpro:30 - Clicked on element
 2022-06-06 15:53:06,047  INFO [main] saralpro:30 - Clicked on element
 2022-06-06 15:53:06,858  INFO [main] saralpro:30 - Clicked on element
+2022-06-06 16:08:14,341  INFO [main] saralpro:64 - url is opened
+2022-06-06 16:08:15,552  INFO [main] saralpro:67 - Entered username
+2022-06-06 16:08:15,696  INFO [main] saralpro:69 - Entered password
+2022-06-06 16:08:16,649  INFO [main] saralpro:73 - Confirm login
+2022-06-06 16:08:20,073  INFO [main] saralpro:80 - Closed release notes
+2022-06-06 16:08:20,636  INFO [main] saralpro:86 - Exit tour
+2022-06-06 16:08:20,706  INFO [main] saralpro:91 - login test passed
+2022-06-06 16:08:22,116  INFO [main] saralpro:760 - Home page is opened
+2022-06-06 16:08:28,453  INFO [main] saralpro:772 - Entity Created
+2022-06-06 16:08:30,213  INFO [main] saralpro:776 - Home page is opened
+2022-06-06 16:08:38,083  INFO [main] saralpro:791 - CLient created
+2022-06-06 16:09:07,588  INFO [main] saralpro:64 - url is opened
+2022-06-06 16:09:08,097  INFO [main] saralpro:67 - Entered username
+2022-06-06 16:09:08,251  INFO [main] saralpro:69 - Entered password
+2022-06-06 16:09:09,218  INFO [main] saralpro:73 - Confirm login
+2022-06-06 16:09:12,486  INFO [main] saralpro:80 - Closed release notes
+2022-06-06 16:09:13,032  INFO [main] saralpro:86 - Exit tour
+2022-06-06 16:09:13,229  INFO [main] saralpro:91 - login test passed
+2022-06-06 16:14:16,785  INFO [main] saralpro:64 - url is opened
+2022-06-06 16:14:18,338  INFO [main] saralpro:67 - Entered username
+2022-06-06 16:14:18,493  INFO [main] saralpro:69 - Entered password
+2022-06-06 16:14:20,187  INFO [main] saralpro:73 - Confirm login
+2022-06-06 16:14:27,163  INFO [main] saralpro:80 - Closed release notes
+2022-06-06 16:14:27,882  INFO [main] saralpro:86 - Exit tour
+2022-06-06 16:14:27,996  INFO [main] saralpro:91 - login test passed
+2022-06-06 16:14:29,967  INFO [main] saralpro:760 - Home page is opened
+2022-06-06 16:14:37,364  INFO [main] saralpro:772 - Entity Created
+2022-06-06 16:14:38,775  INFO [main] saralpro:776 - Home page is opened
+2022-06-06 16:14:46,986  INFO [main] saralpro:791 - CLient created
+2022-06-06 16:18:25,230  INFO [main] saralpro:64 - url is opened
+2022-06-06 16:18:26,830  INFO [main] saralpro:67 - Entered username
+2022-06-06 16:18:27,014  INFO [main] saralpro:69 - Entered password
+2022-06-06 16:18:28,048  INFO [main] saralpro:73 - Confirm login
+2022-06-06 16:18:32,007  INFO [main] saralpro:80 - Closed release notes
+2022-06-06 16:18:32,786  INFO [main] saralpro:86 - Exit tour
+2022-06-06 16:18:32,853  INFO [main] saralpro:91 - login test passed
+2022-06-06 16:19:10,666  INFO [main] saralpro:64 - url is opened
+2022-06-06 16:19:12,197  INFO [main] saralpro:67 - Entered username
+2022-06-06 16:19:12,361  INFO [main] saralpro:69 - Entered password
+2022-06-06 16:19:13,322  INFO [main] saralpro:73 - Confirm login
+2022-06-06 16:19:17,205  INFO [main] saralpro:80 - Closed release notes
+2022-06-06 16:19:18,151  INFO [main] saralpro:86 - Exit tour
+2022-06-06 16:19:18,611  INFO [main] saralpro:91 - login test passed
