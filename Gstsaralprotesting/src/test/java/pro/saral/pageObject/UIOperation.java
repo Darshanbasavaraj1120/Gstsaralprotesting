@@ -21,6 +21,7 @@ public class UIOperation {
 	}
 	public void perform(Properties p,String operation,String objectName,String objectType,String value) throws Exception{
 		System.out.println("");
+		LoginPage lp=new LoginPage(driver);
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		switch (operation.toUpperCase()) {
 		case "CLICK":
@@ -82,6 +83,14 @@ public class UIOperation {
 				Thread.sleep(10000);
 			}
 			catch(Exception  e){
+			}
+			break;
+		case"EXITTOUR":
+			if(lp.tourexist())
+			{
+				lp.Exittour();
+//				action.moveToElement(scanEle).click().build().perform();
+				logger.info("Exit tour");
 			}
 			break;
 
