@@ -29,7 +29,7 @@ public class Regression_Test extends BaseClass {
     	ReadExcel file = new ReadExcel();
      
          //Read keyword sheet
-         Sheet guru99Sheet = file.readExcel(System.getProperty("user.dir")+"\\","TestCase.xlsx" , "Sheet1");
+         Sheet guru99Sheet = file.readExcel(System.getProperty("user.dir")+"\\","TestCase.xlsx" , "Demo");
        //Find number of rows in excel file
      	int rowCount = guru99Sheet.getLastRowNum()-guru99Sheet.getFirstRowNum();
      	object = new Object[rowCount][5];
