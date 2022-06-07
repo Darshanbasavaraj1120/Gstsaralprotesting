@@ -148,7 +148,7 @@ public class Tds_Stepper extends BaseClass {
 	@CacheLookup
 	WebElement btncloseclient;
 	
-	@FindBy(id="Saral_Pro_D")
+	@FindBy(id="Relyon Test")
 	@CacheLookup
 	WebElement entity1click;
 	
@@ -156,7 +156,7 @@ public class Tds_Stepper extends BaseClass {
 	@CacheLookup
 	WebElement clientsavenotification;
 	
-	@FindBy(xpath="//div[@class='badge Ripple-parent badge-primary onClick DashboardStyles__module_enabled_tds___3qDL4']")
+	@FindBy(xpath="(//div[@class='badge Ripple-parent badge-primary onClick DashboardStyles__module_enabled_tds___3qDL4'])[1]")
 	@CacheLookup
 	WebElement TDS;
 	

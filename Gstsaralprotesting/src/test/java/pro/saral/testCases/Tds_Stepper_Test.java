@@ -8,11 +8,11 @@ import pro.saral.pageObject.Tds_Stepper;
 
 public class Tds_Stepper_Test extends BaseClass {
 
-	@Test(priority=0)
-	public void Create_Entity() throws IOException, InterruptedException{
-		Tds_Stepper ts=new Tds_Stepper(driver);
-			ts.create_new_entity();
-		}
+//	@Test(priority=0)
+//	public void Create_Entity() throws IOException, InterruptedException{
+//		Tds_Stepper ts=new Tds_Stepper(driver);
+//			ts.create_new_entity();
+//		}
 	@Test(priority=1)
 	public void Create_Client() throws IOException, InterruptedException{
 		Tds_Stepper ts=new Tds_Stepper(driver);

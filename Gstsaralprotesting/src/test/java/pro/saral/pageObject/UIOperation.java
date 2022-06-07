@@ -28,6 +28,7 @@ public class UIOperation {
 			//Perform click
 			wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(this.getObject(p, objectName, objectType)))).click();;
 			logger.info("Clicked on element");
+			Thread.sleep(2000);
 			break;
 		case "SETTEXT":
 			//Set text on control
