@@ -5965,3 +5965,104 @@
 2022-06-09 09:51:49,650  INFO [main] saralpro:86 - Exit tour
 2022-06-09 09:51:49,674  INFO [main] saralpro:91 - login test passed
 2022-06-09 09:52:00,591  INFO [main] saralpro:247 - Clicked on Employee Tab
+2022-06-09 11:07:30,795  INFO [main] saralpro:64 - url is opened
+2022-06-09 11:07:32,621  INFO [main] saralpro:67 - Entered username
+2022-06-09 11:07:32,797  INFO [main] saralpro:69 - Entered password
+2022-06-09 11:07:33,959  INFO [main] saralpro:73 - Confirm login
+2022-06-09 11:07:38,822  INFO [main] saralpro:80 - Closed release notes
+2022-06-09 11:07:39,421  INFO [main] saralpro:86 - Exit tour
+2022-06-09 11:07:39,582  INFO [main] saralpro:91 - login test passed
+2022-06-09 11:07:45,670  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:07:46,279  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:07:50,354  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:07:53,078  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:07:55,537  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:07:58,189  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:00,625  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:03,062  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:03,206  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:03,377  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:03,541  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:04,251  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:04,687  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:05,196  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:05,605  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:06,069  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:06,525  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:06,893  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:07,280  INFO [main] saralpro:54 - Selected dropdown
+2022-06-09 11:08:07,675  INFO [main] saralpro:54 - Selected dropdown
+2022-06-09 11:08:08,062  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:08,557  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:08,711  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:09,490  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:09,908  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:12,160  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:13,287  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:13,704  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:15,871  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:16,733  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:17,175  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:19,312  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:20,203  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:20,724  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:22,873  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:23,905  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:24,422  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:26,593  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:27,874  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:28,339  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:30,472  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:31,441  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:31,871  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:34,004  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:34,754  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:35,169  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:37,328  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:37,752  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:38,168  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:40,393  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:41,174  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:41,932  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:42,109  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:42,525  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:44,676  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:45,137  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:47,623  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:50,238  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:52,799  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:53,354  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:08:53,850  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:55,955  INFO [main] saralpro:49 - Verified
+2022-06-09 11:08:56,275  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:08:58,632  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:01,381  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:04,531  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:05,305  INFO [main] saralpro:54 - Selected dropdown
+2022-06-09 11:09:06,201  INFO [main] saralpro:54 - Selected dropdown
+2022-06-09 11:09:07,156  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:07,685  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:10,535  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:12,749  INFO [main] saralpro:49 - Verified
+2022-06-09 11:09:13,298  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:16,032  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:18,534  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:18,986  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:19,482  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:19,867  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:20,237  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:42,933  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:43,253  INFO [main] saralpro:54 - Selected dropdown
+2022-06-09 11:09:43,604  INFO [main] saralpro:54 - Selected dropdown
+2022-06-09 11:09:43,988  INFO [main] saralpro:36 - Sent Text
+2022-06-09 11:09:45,851  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:48,487  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:54,907  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:57,306  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:09:59,730  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:10:02,120  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:10:04,304  INFO [main] saralpro:49 - Verified
+2022-06-09 11:10:04,830  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:10:07,278  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:10:09,687  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 11:10:11,855  INFO [main] saralpro:49 - Verified
