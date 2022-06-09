@@ -5957,3 +5957,11 @@
 2022-06-09 09:17:27,161  INFO [main] saralpro:30 - Clicked on element
 2022-06-09 09:17:29,599  INFO [main] saralpro:30 - Clicked on element
 2022-06-09 09:17:31,925  INFO [main] saralpro:30 - Clicked on element
+2022-06-09 09:51:42,637  INFO [main] saralpro:64 - url is opened
+2022-06-09 09:51:44,052  INFO [main] saralpro:67 - Entered username
+2022-06-09 09:51:44,210  INFO [main] saralpro:69 - Entered password
+2022-06-09 09:51:45,208  INFO [main] saralpro:73 - Confirm login
+2022-06-09 09:51:49,074  INFO [main] saralpro:80 - Closed release notes
+2022-06-09 09:51:49,650  INFO [main] saralpro:86 - Exit tour
+2022-06-09 09:51:49,674  INFO [main] saralpro:91 - login test passed
+2022-06-09 09:52:00,591  INFO [main] saralpro:247 - Clicked on Employee Tab
