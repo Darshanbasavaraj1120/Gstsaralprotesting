@@ -692,7 +692,7 @@ public class Aimport extends BaseClass{
 			clickon24qtab();
 			clickonimporttab();
 			excelimportbuttonclick();
-			Thread.sleep(10000);
+			Thread.sleep(15000);
 			uploadbuttonclick();
 			verifyvalidfile();
 		}
@@ -711,7 +711,7 @@ public class Aimport extends BaseClass{
 			}
 			catch(Exception  e){
 			}
-			Thread.sleep(10000);
+			Thread.sleep(15000);
 			deductornumberverify();
 			deductorsuccessverify();
 			challannumberverify();
@@ -731,8 +731,9 @@ public class Aimport extends BaseClass{
 			fyyear();
 			uploaderrorfilepath();
 			uploadbuttonclick();
-			dataalreadyexistclick();
-			Thread.sleep(10000);
+			Thread.sleep(15000);
+//			dataalreadyexistclick();
+			Thread.sleep(15000);
 			clickaviewerror();
 			clickonparticularerror();
 			deductorpanerrorcheck();
@@ -775,7 +776,7 @@ public class Aimport extends BaseClass{
 			}
 			catch(Exception  e){
 			}
-			Thread.sleep(10000);
+			Thread.sleep(15000);
 			deductornumberverify();
 			deductorsuccessverify();
 			challannumberverify();
@@ -802,7 +803,7 @@ public class Aimport extends BaseClass{
 			}
 			catch(Exception  e){
 			}
-			Thread.sleep(10000);
+			Thread.sleep(15000);
 			deductornumberverify();
 			deductorsuccessverify();
 			textchallannumberverify();
@@ -826,7 +827,7 @@ public class Aimport extends BaseClass{
 			}
 			catch(Exception  e){
 			}
-			Thread.sleep(10000);
+			Thread.sleep(15000);
 			deductornumberverify();
 			deductorsuccessverify();
 			masterdeductionnumberverify();
