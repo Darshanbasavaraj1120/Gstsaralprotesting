@@ -67,6 +67,7 @@ public class UIOperation {
 			break;
 		case "UPLOAD":
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(System.getProperty("user.dir")+value);
+			Thread.sleep(10000);
 			System.out.println(("user.dir")+value);
 			logger.info("Uploaded File");
 			break;
