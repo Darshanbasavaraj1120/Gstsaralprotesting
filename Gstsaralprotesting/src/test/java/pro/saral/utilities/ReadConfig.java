@@ -128,6 +128,27 @@ public class ReadConfig{
 		System.out.println(actual_error);
 		Assert.assertEquals(expected, actual_error);
 	}
+	public static Boolean isFileDownloaded(String fileName) {
+        boolean flag = false;
+        String home =System.getProperty("user.home");
+        String dirPath = (home+"//Downloads"); 
+        File dir = new File(dirPath);
+        System.out.println(dirPath);
+        File[] files = dir.listFiles();
+        if (files.length == 0 || files == null) {
+            System.out.println("The directory is empty");
+            flag = false;
+        } else {
+            for (File listFile : files) {
+                if (listFile.getName().contains(fileName)) {
+                    System.out.println(fileName + " is present");
+                    break;
+                }
+                flag = true;
+            }
+        }
+        return flag;
+    }
 //	public void uploadfile(String path,String element )
 //	{
 //		WebElement upload_file = driver.findElement(By.xpath(element));

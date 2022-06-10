@@ -47,30 +47,36 @@ public void Login_Entry() throws InterruptedException, IOException{
 		emp.edit_fields();	
 	}
 	@Test(priority=5)
+	public void Download_Employyee_Excel() throws IOException, InterruptedException
+	{
+		Employee emp=new Employee(driver);
+		emp.Download_Template();	
+	}
+	@Test(priority=6)
 	public void Delete_Single_Fields() throws IOException, InterruptedException
 	{
 		Employee emp=new Employee(driver);
 		emp.delete_single_fields();
 	}
-	@Test(priority=6)
+	@Test(priority=7)
 	public void Enter_All_Field_And_Check() throws IOException
 	{
 		Employee emp=new Employee(driver);
 		emp.enter_all_fields();
 	}
-	@Test(priority=7)
+	@Test(priority=8)
 	public void Enter_All_Field_And_Check_Duplication() throws IOException
 	{
 		Employee emp=new Employee(driver);
 		emp.enter_all_fields_check_duplication();
 	}
-	@Test(priority=8)
+	@Test(priority=9)
 	public void Enter_All_Different_Pan_Cases() throws IOException, InterruptedException
 	{
 		Employee emp=new Employee(driver);
 		emp.differentpancases();
 	}
-	@Test(priority=9)
+	@Test(priority=10)
 	public void Delete_All_Fields() throws IOException, InterruptedException
 	{
 		Employee emp=new Employee(driver);

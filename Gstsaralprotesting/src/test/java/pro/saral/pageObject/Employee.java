@@ -1,5 +1,6 @@
 package pro.saral.pageObject;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
@@ -28,6 +29,7 @@ public class Employee extends BaseClass {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	Actions action = new Actions(driver);
 	int j=0;
+	String FileName="EmployeeMasterExport.xlsx";
 	public Employee(WebDriver rdriver) throws IOException
 	{
 		idriver=rdriver;
@@ -130,6 +132,10 @@ public class Employee extends BaseClass {
 	@CacheLookup
 	WebElement deleteconfirm;
 	
+	@FindBy(xpath="EmpDeductee-excel")
+	@CacheLookup
+	WebElement employeeexcel;
+	
 	
 		public void tabempclick()
 	{
@@ -142,6 +148,10 @@ public class Employee extends BaseClass {
 	public void clickoncheckboxone()
 	{
 		checkboxone.click();
+	}
+	public void employeeexcelclick()
+	{
+		employeeexcel.click();
 	}
 	public void clickoncheckboxall()
 	{
@@ -241,6 +251,13 @@ public class Employee extends BaseClass {
 	public void btndeleteconfirmlick()
 	{
 		deleteconfirm.click();
+	}
+
+	public void Download_Template() throws IOException, InterruptedException
+	{
+		logger.info("Clicked on Employee Tab");
+		employeeexcelclick();
+		readconfig.isFileDownloaded(FileName);
 	}
 	public void mandatory_check()
 	{
