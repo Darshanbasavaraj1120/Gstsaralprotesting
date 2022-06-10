@@ -8,13 +8,13 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pro.saral.testCases.AChallan_Test">
+      <class name="pro.saral.testCases.AEreturn_Test">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="Challan_Testcases" invocation-numbers="85 91"/>
+          <include name="Challan_Testcases" invocation-numbers="48"/>
         </methods>
-      </class> <!-- pro.saral.testCases.AChallan_Test -->
+      </class> <!-- pro.saral.testCases.AEreturn_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->
