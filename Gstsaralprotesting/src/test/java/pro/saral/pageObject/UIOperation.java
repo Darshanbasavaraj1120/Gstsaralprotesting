@@ -57,6 +57,9 @@ public class UIOperation {
 			//Clear textbox
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(Keys.chord(Keys.CONTROL,"a", Keys.DELETE));
 			break;
+		case "IMPLICTWAIT":
+			Thread.sleep(10000);
+			break;
 		case "SELECT":
 			//Select textbox
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(Keys.CONTROL + "a");
@@ -67,7 +70,7 @@ public class UIOperation {
 			break;
 		case "UPLOAD":
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(System.getProperty("user.dir")+value);
-			Thread.sleep(10000);
+			Thread.sleep(2000);
 			System.out.println(("user.dir")+value);
 			logger.info("Uploaded File");
 			break;
@@ -80,6 +83,7 @@ public class UIOperation {
 			break;
 		case"UPLOADWARNING":
 			wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(this.getObject(p,objectName,objectType)))).click();
+			Thread.sleep(15000);
 			try {
 				driver.findElement(By.xpath("(//button[@class='btn2 button2 btn-secondary btn-sm Ripple-parent'])[2]")).click();
 				Thread.sleep(15000);
