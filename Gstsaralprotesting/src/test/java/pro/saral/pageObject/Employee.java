@@ -36,11 +36,11 @@ public class Employee extends BaseClass {
 		PageFactory.initElements(rdriver, this);
 		excelutils.EntityExcel(deductorexcelfilepath, "Entity");
 	}
-	@FindBy(id="TDS")
+	@FindBy(id="Saral_Pro_Test")
 	@CacheLookup
 	WebElement entity;
 	
-	@FindBy(xpath="//tbody/tr[3]/td[3]/div[1]")
+	@FindBy(xpath="//tbody/tr[2]/td[3]/div[1]")
 	@CacheLookup
 	WebElement client;
 	
@@ -132,7 +132,7 @@ public class Employee extends BaseClass {
 	@CacheLookup
 	WebElement deleteconfirm;
 	
-	@FindBy(xpath="EmpDeductee-excel")
+	@FindBy(id="EmpDeductee-excel")
 	@CacheLookup
 	WebElement employeeexcel;
 	
@@ -257,6 +257,7 @@ public class Employee extends BaseClass {
 	{
 		logger.info("Clicked on Employee Tab");
 		employeeexcelclick();
+		Thread.sleep(5000);
 		readconfig.isFileDownloaded(FileName);
 	}
 	public void mandatory_check()
