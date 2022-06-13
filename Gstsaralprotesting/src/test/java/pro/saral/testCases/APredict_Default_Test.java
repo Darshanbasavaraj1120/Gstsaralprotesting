@@ -14,7 +14,7 @@ import pro.saral.utilities.ReadObject;
 
 public class APredict_Default_Test extends BaseClass{
 	@Test(dataProvider="hybridData")
-	public void Challan_Testcases(String testcaseName,String keyword,String objectName,String objectType,String value) throws Exception {	
+	public void PredictDefault_Testcases(String testcaseName,String keyword,String objectName,String objectType,String value) throws Exception {	
         ReadObject object = new ReadObject();
         Properties allObjects =  object.getObjectRepository();
         UIOperation operation = new UIOperation(driver);

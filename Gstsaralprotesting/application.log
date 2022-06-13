@@ -9037,3 +9037,11 @@
 2022-06-13 10:29:18,720  INFO [main] saralpro:80 - Closed release notes
 2022-06-13 10:29:19,879  INFO [main] saralpro:86 - Exit tour
 2022-06-13 10:29:19,964  INFO [main] saralpro:91 - login test passed
+2022-06-13 10:34:59,604  INFO [main] saralpro:64 - url is opened
+2022-06-13 10:35:00,733  INFO [main] saralpro:67 - Entered username
+2022-06-13 10:35:00,907  INFO [main] saralpro:69 - Entered password
+2022-06-13 10:35:03,157  INFO [main] saralpro:73 - Confirm login
+2022-06-13 10:35:08,260  INFO [main] saralpro:80 - Closed release notes
+2022-06-13 10:35:08,771  INFO [main] saralpro:86 - Exit tour
+2022-06-13 10:35:08,860  INFO [main] saralpro:91 - login test passed
+2022-06-13 10:35:19,341  INFO [main] saralpro:265 - Clicked on Employee Tab

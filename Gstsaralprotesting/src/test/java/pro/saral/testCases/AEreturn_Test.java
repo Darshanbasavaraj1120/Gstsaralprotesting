@@ -15,7 +15,7 @@ import pro.saral.utilities.ReadObject;
 public class AEreturn_Test extends BaseClass{
 	
 	@Test(dataProvider="hybridData")
-	public void Challan_Testcases(String testcaseName,String keyword,String objectName,String objectType,String value) throws Exception {	
+	public void AEreturn_Testcases(String testcaseName,String keyword,String objectName,String objectType,String value) throws Exception {	
         ReadObject object = new ReadObject();
         Properties allObjects =  object.getObjectRepository();
         UIOperation operation = new UIOperation(driver);
