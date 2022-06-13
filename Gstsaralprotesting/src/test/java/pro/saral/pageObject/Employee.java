@@ -116,7 +116,7 @@ public class Employee extends BaseClass {
 	@CacheLookup
 	WebElement empduplicatesavenotification;
 	
-	@FindBy(id="btn-editIcon-EmpTable-0")
+	@FindBy(id="btn-editIcon-EmpTable-2")
 	@CacheLookup
 	WebElement btnedit;
 	

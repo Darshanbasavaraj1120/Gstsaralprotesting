@@ -9,6 +9,7 @@ public class Employee_Test extends BaseClass{
 public void Login_Entry() throws InterruptedException, IOException{
 		driver.navigate().to(dashboardurl);
 		Employee emp=new Employee(driver);
+		Thread.sleep(2000);
 		emp.entityhover();
 		emp.entityclick();
 		emp.clientclick();
