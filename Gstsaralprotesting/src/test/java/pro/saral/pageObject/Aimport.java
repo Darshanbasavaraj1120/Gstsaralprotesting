@@ -703,8 +703,10 @@ public class Aimport extends BaseClass{
 			excelimportbuttonclick();
 			fyyear();
 			uploadvalidfilepath();
+			Thread.sleep(2000);
 			clickonclearbutton();
 			uploadvalidfilepath();
+			Thread.sleep(2000);
 			uploadbuttonclick();
 			try {
 				clickexceloverwritewarning();
@@ -730,6 +732,7 @@ public class Aimport extends BaseClass{
 			excelimportbuttonclick();
 			fyyear();
 			uploaderrorfilepath();
+			Thread.sleep(2000);
 			uploadbuttonclick();
 			Thread.sleep(15000);
 //			dataalreadyexistclick();
@@ -758,6 +761,7 @@ public class Aimport extends BaseClass{
 			consoimportbuttonclick();
 			fyyear();
 			uploadvalidconsofilepath();
+			Thread.sleep(2000);
 			try {
 				consooldfileconfirmationclick();
 			}
@@ -765,6 +769,7 @@ public class Aimport extends BaseClass{
 			}
 			clickonclearbutton();
 			uploadvalidconsofilepath();
+			Thread.sleep(2000);
 			try {
 				consooldfileconfirmationclick();
 			}
@@ -796,7 +801,9 @@ public class Aimport extends BaseClass{
 			fyyeartext();
 			uploadvalidtextfilepath();
 			clickonclearbutton();
+			Thread.sleep(2000);
 			uploadvalidtextfilepath();
+			Thread.sleep(2000);
 			uploadbuttonclick();
 			try {
 				clickexceloverwritewarning();
@@ -820,7 +827,9 @@ public class Aimport extends BaseClass{
 			masterimportbuttonclick();
 			uploadmasterfilepath();
 			clickonclearbutton();
+			Thread.sleep(2000);
 			uploadmasterfilepath();
+			Thread.sleep(2000);
 			uploadbuttonclick();
 			try {
 				clickexceloverwritewarning();
