@@ -315,11 +315,15 @@ public class Employee extends BaseClass {
 		btnempsaveclick();
 		empsavenotification();
 	}
-	public void enter_all_fields_check_duplication()
+	public void enter_all_fields_check_duplication() throws InterruptedException
 	{
 		empaddclick();
+		Thread.sleep(2000);
 		emppan(excelutils.getCellData(40, 1));
 		empname(excelutils.getCellData(40, 0));
+		empdesignation(excelutils.getCellData(40, 3));
+		emprefno(excelutils.getCellData(40, 4));
+		empaddress(excelutils.getCellData(40, 5));
 		empduplicatenotification();
 
 	}

@@ -9549,3 +9549,35 @@
 2022-06-13 16:09:34,778  INFO [main] saralpro:49 - Verified
 2022-06-13 16:09:34,877  INFO [main] saralpro:49 - Verified
 2022-06-13 16:09:34,972  INFO [main] saralpro:49 - Verified
+2022-06-13 16:46:51,916  INFO [main] saralpro:64 - url is opened
+2022-06-13 16:46:53,071  INFO [main] saralpro:67 - Entered username
+2022-06-13 16:46:53,243  INFO [main] saralpro:69 - Entered password
+2022-06-13 16:46:54,442  INFO [main] saralpro:73 - Confirm login
+2022-06-13 16:46:59,163  INFO [main] saralpro:80 - Closed release notes
+2022-06-13 16:46:59,668  INFO [main] saralpro:86 - Exit tour
+2022-06-13 16:46:59,742  INFO [main] saralpro:91 - login test passed
+2022-06-13 16:47:14,327  INFO [main] saralpro:273 - Clicked on Employee Tab
+2022-06-13 16:48:36,711  INFO [main] saralpro:266 - Clicked on Employee Tab
+2022-06-13 18:05:49,885  INFO [main] saralpro:64 - url is opened
+2022-06-13 18:05:51,012  INFO [main] saralpro:67 - Entered username
+2022-06-13 18:05:51,193  INFO [main] saralpro:69 - Entered password
+2022-06-13 18:05:52,604  INFO [main] saralpro:73 - Confirm login
+2022-06-13 18:05:57,067  INFO [main] saralpro:80 - Closed release notes
+2022-06-13 18:05:57,573  INFO [main] saralpro:86 - Exit tour
+2022-06-13 18:05:57,687  INFO [main] saralpro:91 - login test passed
+2022-06-13 18:06:12,119  INFO [main] saralpro:273 - Clicked on Employee Tab
+2022-06-13 18:07:33,035  INFO [main] saralpro:266 - Clicked on Employee Tab
+2022-06-13 18:10:04,079  INFO [main] saralpro:64 - url is opened
+2022-06-13 18:10:05,164  INFO [main] saralpro:67 - Entered username
+2022-06-13 18:10:05,341  INFO [main] saralpro:69 - Entered password
+2022-06-13 18:10:06,608  INFO [main] saralpro:73 - Confirm login
+2022-06-13 18:10:11,190  INFO [main] saralpro:80 - Closed release notes
+2022-06-13 18:10:11,687  INFO [main] saralpro:86 - Exit tour
+2022-06-13 18:10:11,836  INFO [main] saralpro:91 - login test passed
+2022-06-13 18:11:19,068  INFO [main] saralpro:64 - url is opened
+2022-06-13 18:11:20,181  INFO [main] saralpro:67 - Entered username
+2022-06-13 18:11:20,376  INFO [main] saralpro:69 - Entered password
+2022-06-13 18:11:21,585  INFO [main] saralpro:73 - Confirm login
+2022-06-13 18:11:26,366  INFO [main] saralpro:80 - Closed release notes
+2022-06-13 18:11:26,899  INFO [main] saralpro:86 - Exit tour
+2022-06-13 18:11:26,970  INFO [main] saralpro:91 - login test passed
