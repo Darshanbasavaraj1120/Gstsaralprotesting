@@ -13,6 +13,7 @@ public void Login_Entry() throws InterruptedException, IOException{
 		emp.entityhover();
 		emp.entityclick();
 		emp.clientclick();
+		Thread.sleep(3000);
 		emp.tabempclick();
 		driver.navigate().refresh();
 		Thread.sleep(3000);
