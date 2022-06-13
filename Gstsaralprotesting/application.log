@@ -9464,3 +9464,11 @@
 2022-06-13 11:42:27,423  INFO [main] saralpro:75 - Uploaded File
 2022-06-13 11:43:02,998  INFO [main] saralpro:30 - Clicked on element
 2022-06-13 11:43:05,341  INFO [main] saralpro:30 - Clicked on element
+2022-06-13 15:20:16,007  INFO [main] saralpro:64 - url is opened
+2022-06-13 15:20:17,089  INFO [main] saralpro:67 - Entered username
+2022-06-13 15:20:17,250  INFO [main] saralpro:69 - Entered password
+2022-06-13 15:20:18,570  INFO [main] saralpro:73 - Confirm login
+2022-06-13 15:20:23,245  INFO [main] saralpro:80 - Closed release notes
+2022-06-13 15:20:23,809  INFO [main] saralpro:86 - Exit tour
+2022-06-13 15:20:23,888  INFO [main] saralpro:91 - login test passed
+2022-06-13 15:20:39,483  INFO [main] saralpro:273 - Clicked on Employee Tab
