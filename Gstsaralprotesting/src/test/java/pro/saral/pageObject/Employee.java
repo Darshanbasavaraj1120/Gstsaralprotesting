@@ -55,6 +55,10 @@ public class Employee extends BaseClass {
 	@FindBy(xpath="(//label[@class='checkbox checkbox-primary'])[1]")
 	@CacheLookup
 	WebElement checkboxall;
+	
+	@FindBy(xpath="//button[contains(text(),'25')]")
+	@CacheLookup
+	WebElement paginationmax;
 
 	@FindBy(id="btn-addIcon-empDedMaster")
 	@CacheLookup
@@ -156,6 +160,10 @@ public class Employee extends BaseClass {
 	public void clickoncheckboxall()
 	{
 		checkboxall.click();
+	}
+	public void clickonpagination()
+	{
+		paginationmax.click();
 	}
 	public void empaddclick()
 	{
@@ -332,6 +340,7 @@ public class Employee extends BaseClass {
 	}
 	public void delete_all_fields()
 	{
+		clickonpagination();
 		clickoncheckboxall();
 		btndeleteclick();
 		btndeleteconfirmlick();
