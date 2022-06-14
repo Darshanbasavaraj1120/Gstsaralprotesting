@@ -8,6 +8,7 @@ import pro.saral.pageObject.LoginPage;
 public class Employee_Test extends BaseClass{
 	@BeforeMethod
 public void Login_Entry() throws InterruptedException, IOException{
+		driver.navigate().to(productdashboardurl);
 		Employee emp=new Employee(driver);
 		LoginPage lp=new LoginPage(driver);
 		Thread.sleep(2000);
