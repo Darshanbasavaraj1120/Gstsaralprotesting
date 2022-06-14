@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
 
 import pro.saral.pageObject.Aimport;
 import pro.saral.pageObject.Employee;
+import pro.saral.pageObject.LoginPage;
 import pro.saral.pageObject.Tds_Stepper;
 import pro.saral.pageObject.UIOperation;
 import pro.saral.utilities.ReadConfig;
@@ -29,10 +30,17 @@ public class Aimport_Test extends BaseClass{
 public void Login_Entry() throws InterruptedException, IOException{
 		driver.navigate().to(dashboardurl);
 		Employee emp=new Employee(driver);
+		LoginPage lp=new LoginPage(driver);
 		Thread.sleep(2000);
 		emp.entityhover();
 		emp.entityclick();
 		emp.clientclick();
+		try {
+			lp.Exittour();
+			logger.info("Exit tour");
+		}
+		catch(Exception  e){
+		}
 	}
 	@Test(priority=0)
 	public void Download_Template_And_Verify() throws IOException, InterruptedException

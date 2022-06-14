@@ -84,6 +84,7 @@ public class UIOperation {
 		case"UPLOADWARNING":
 			wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(this.getObject(p,objectName,objectType)))).click();
 			Thread.sleep(15000);
+			
 			try {
 				driver.findElement(By.xpath("(//button[@class='btn2 button2 btn-secondary btn-sm Ripple-parent'])[2]")).click();
 				Thread.sleep(15000);

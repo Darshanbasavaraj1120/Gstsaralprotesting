@@ -8,14 +8,19 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pro.saral.testCases.Employee_Test">
+      <class name="pro.saral.testCases.Aimport_Test">
         <methods>
+          <include name="Upload_Valid_Text_And_Check_Sucess_Status"/>
+          <include name="Upload_Valid_Conso_And_Check_Sucess_Status"/>
+          <include name="Upload_Valid_Excel_And_Check_Sucess_Status"/>
+          <include name="Upload_Valid_Mster_Excel_And_Check_Sucess_Status"/>
           <include name="setup"/>
-          <include name="Enter_All_Different_Pan_Cases"/>
-          <include name="Delete_All_Fields"/>
           <include name="Login_Entry"/>
+          <include name="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation"/>
+          <include name="Upload_Invalid_Excel_And_Check_Errors"/>
+          <include name="Check_Tan_Validation"/>
         </methods>
-      </class> <!-- pro.saral.testCases.Employee_Test -->
+      </class> <!-- pro.saral.testCases.Aimport_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->

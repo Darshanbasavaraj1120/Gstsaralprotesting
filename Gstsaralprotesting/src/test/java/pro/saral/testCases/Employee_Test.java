@@ -3,16 +3,24 @@ import java.io.IOException;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pro.saral.pageObject.Employee;
+import pro.saral.pageObject.LoginPage;
 
 public class Employee_Test extends BaseClass{
 	@BeforeMethod
 public void Login_Entry() throws InterruptedException, IOException{
 		driver.navigate().to(dashboardurl);
 		Employee emp=new Employee(driver);
+		LoginPage lp=new LoginPage(driver);
 		Thread.sleep(2000);
 		emp.entityhover();
 		emp.entityclick();
 		emp.clientclick();
+		try {
+			lp.Exittour();
+			logger.info("Exit tour");
+		}
+		catch(Exception  e){
+		}
 		Thread.sleep(3000);
 		emp.tabempclick();
 		driver.navigate().refresh();

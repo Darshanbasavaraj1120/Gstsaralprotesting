@@ -94,9 +94,18 @@ public class Aimport extends BaseClass{
 	@CacheLookup
 	WebElement uploadbutton;
 	
+	@FindBy(xpath="(//button[@class='btn2 button2 btn-primary Ripple-parent'])[1]")
+	@CacheLookup
+	WebElement upload;
+	
 	@FindBy(id="DrgAndDropClearButton")
 	@CacheLookup
 	WebElement clearbutton;
+	
+	@FindBy(xpath="(//button[@class='btn2 button2 btn-close Ripple-parent'])[1]")
+	@CacheLookup
+	WebElement clear;
+	
 	
 	@FindBy(xpath="//div[contains(text(),'Add a valid .XLSX file / multiple files not allowed')]")
 	@CacheLookup
@@ -412,7 +421,13 @@ public class Aimport extends BaseClass{
 	}
 	public void uploadbuttonclick()
 	{
-		uploadbutton.click();
+		if(uploadbutton.isDisplayed()){
+			uploadbutton.click();
+		}
+		else {
+			upload.click();
+		}
+		
 	}
 	public void verifyvalidfile()
 	{
@@ -420,7 +435,7 @@ public class Aimport extends BaseClass{
 	}
 	public void clickonclearbutton()
 	{
-		clearbutton.click();
+		clear.click();
 	}
 	public void deductornumberverify()
 	{

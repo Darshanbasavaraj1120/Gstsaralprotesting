@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="GstSaralPro" duration-ms="78127" started-at="2022-06-13T12:41:12Z" finished-at="2022-06-13T12:42:30Z">
+  <suite name="GstSaralPro" duration-ms="444888" started-at="2022-06-14T05:05:09Z" finished-at="2022-06-14T05:12:34Z">
     <groups>
     </groups>
-    <test name="GstSaral Test" duration-ms="78127" started-at="2022-06-13T12:41:12Z" finished-at="2022-06-13T12:42:30Z">
-      <class name="pro.saral.testCases.Employee_Test">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="setup" is-config="true" duration-ms="14306" started-at="2022-06-13T18:11:12Z" finished-at="2022-06-13T18:11:26Z">
+    <test name="GstSaral Test" duration-ms="444888" started-at="2022-06-14T05:05:09Z" finished-at="2022-06-14T05:12:34Z">
+      <class name="pro.saral.testCases.Aimport_Test">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="setup" is-config="true" duration-ms="14978" started-at="2022-06-14T10:35:10Z" finished-at="2022-06-14T10:35:24Z">
           <params>
             <param index="0">
               <value>
@@ -18,35 +18,75 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="Login_Entry" is-config="true" duration-ms="14774" started-at="2022-06-13T18:11:26Z" finished-at="2022-06-13T18:11:41Z">
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="6536" started-at="2022-06-14T10:35:24Z" finished-at="2022-06-14T10:35:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Enter_All_Field_And_Check_Duplication()[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="Enter_All_Field_And_Check_Duplication" duration-ms="4988" started-at="2022-06-13T18:11:41Z" finished-at="2022-06-13T18:11:46Z">
+        <test-method status="PASS" signature="Download_Template_And_Verify()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Download_Template_And_Verify" duration-ms="8768" started-at="2022-06-14T10:35:31Z" finished-at="2022-06-14T10:35:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Enter_All_Field_And_Check_Duplication -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="Login_Entry" is-config="true" duration-ms="14193" started-at="2022-06-13T18:11:46Z" finished-at="2022-06-13T18:12:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Enter_All_Different_Pan_Cases()[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="Enter_All_Different_Pan_Cases" duration-ms="13515" started-at="2022-06-13T18:12:00Z" finished-at="2022-06-13T18:12:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Enter_All_Different_Pan_Cases -->
-        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="Login_Entry" is-config="true" duration-ms="13149" started-at="2022-06-13T18:12:14Z" finished-at="2022-06-13T18:12:27Z">
+        </test-method> <!-- Download_Template_And_Verify -->
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="25266" started-at="2022-06-14T10:35:40Z" finished-at="2022-06-14T10:36:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Entry -->
-        <test-method status="PASS" signature="Delete_All_Fields()[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="Delete_All_Fields" duration-ms="2237" started-at="2022-06-13T18:12:27Z" finished-at="2022-06-13T18:12:29Z">
+        <test-method status="PASS" signature="Check_Tan_Validation()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Check_Tan_Validation" duration-ms="6827" started-at="2022-06-14T10:36:05Z" finished-at="2022-06-14T10:36:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Delete_All_Fields -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pro.saral.testCases.Employee_Test@58ceff1]" name="tearDown" is-config="true" duration-ms="696" started-at="2022-06-13T18:12:29Z" finished-at="2022-06-13T18:12:30Z">
+        </test-method> <!-- Check_Tan_Validation -->
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="26434" started-at="2022-06-14T10:36:12Z" finished-at="2022-06-14T10:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Entry -->
+        <test-method status="PASS" signature="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation" duration-ms="18669" started-at="2022-06-14T10:36:38Z" finished-at="2022-06-14T10:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation -->
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="25384" started-at="2022-06-14T10:36:57Z" finished-at="2022-06-14T10:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Entry -->
+        <test-method status="PASS" signature="Upload_Valid_Excel_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Excel_And_Check_Sucess_Status" duration-ms="36981" started-at="2022-06-14T10:37:22Z" finished-at="2022-06-14T10:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_Valid_Excel_And_Check_Sucess_Status -->
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="25640" started-at="2022-06-14T10:37:59Z" finished-at="2022-06-14T10:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Entry -->
+        <test-method status="PASS" signature="Upload_Invalid_Excel_And_Check_Errors()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Invalid_Excel_And_Check_Errors" duration-ms="36307" started-at="2022-06-14T10:38:25Z" finished-at="2022-06-14T10:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_Invalid_Excel_And_Check_Errors -->
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="25598" started-at="2022-06-14T10:39:01Z" finished-at="2022-06-14T10:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Entry -->
+        <test-method status="PASS" signature="Upload_Valid_Conso_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Conso_And_Check_Sucess_Status" duration-ms="57656" started-at="2022-06-14T10:39:27Z" finished-at="2022-06-14T10:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_Valid_Conso_And_Check_Sucess_Status -->
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="25938" started-at="2022-06-14T10:40:25Z" finished-at="2022-06-14T10:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Entry -->
+        <test-method status="PASS" signature="Upload_Valid_Text_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Text_And_Check_Sucess_Status" duration-ms="35723" started-at="2022-06-14T10:40:51Z" finished-at="2022-06-14T10:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_Valid_Text_And_Check_Sucess_Status -->
+        <test-method status="PASS" signature="Login_Entry()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Login_Entry" is-config="true" duration-ms="25760" started-at="2022-06-14T10:41:26Z" finished-at="2022-06-14T10:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Entry -->
+        <test-method status="PASS" signature="Upload_Valid_Mster_Excel_And_Check_Sucess_Status()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="Upload_Valid_Mster_Excel_And_Check_Sucess_Status" duration-ms="40897" started-at="2022-06-14T10:41:52Z" finished-at="2022-06-14T10:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_Valid_Mster_Excel_And_Check_Sucess_Status -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pro.saral.testCases.Aimport_Test@7c30a502]" name="tearDown" is-config="true" duration-ms="1017" started-at="2022-06-14T10:42:33Z" finished-at="2022-06-14T10:42:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pro.saral.testCases.Employee_Test -->
+      </class> <!-- pro.saral.testCases.Aimport_Test -->
     </test> <!-- GstSaral Test -->
   </suite> <!-- GstSaralPro -->
 </testng-results>
