@@ -43,6 +43,15 @@ public class UIOperation {
 			//Get text of an element
 			driver.findElement(this.getObject(p,objectName,objectType)).getText();
 			break;
+		case "GETATTRIBUTE":
+			//Get text of an element
+			String amount=driver.findElement(this.getObject(p,objectName,objectType)).getAttribute(value);
+			System.out.println(amount);
+			if(amount.contains("10.00"))
+			{
+				System.out.println("Amount rate is correct");
+			}
+			break;	
 		case "VERIFYNOTIFICATION":
 			//Verify notifications
 			driver.findElement(this.getObject(p,objectName,objectType)).isDisplayed();
