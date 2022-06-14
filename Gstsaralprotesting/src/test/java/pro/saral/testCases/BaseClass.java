@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -29,6 +30,8 @@ public class BaseClass {
 	public String password=readconfig.getPassword();
 	public String karnatakagstcode=readconfig.getPassword();
 	public String dashboardurl=readconfig.getDashboardURL();
+	public String producturl=readconfig.getProductURL();
+	public String productdashboardurl=readconfig.getProductDashboardURL();
 	public static WebDriver driver;
 	
 	public static Logger logger;
@@ -60,8 +63,15 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.get(baseurl);
+		driver.get(producturl);
 		logger.info("url is opened");
+		try {
+			driver.findElement(By.xpath("//li[@id='nav-menu-item-13592']//child::span[@class='item_outer']")).click();
+			logger.info("landing page closed");
+		}
+		catch(Exception  e){
+		}
+		
 		LoginPage lp=new LoginPage(driver);
 		lp.setUserName(username);
 		logger.info("Entered username");

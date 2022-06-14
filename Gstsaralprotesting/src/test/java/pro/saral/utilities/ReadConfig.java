@@ -50,6 +50,17 @@ public class ReadConfig{
 		String dashboardurl=pro.getProperty("dashboardURL");
 		return dashboardurl;
 	}
+	public String getProductURL()
+	{
+		String dashboardurl=pro.getProperty("dashboardURL");
+		return dashboardurl;
+	}
+	public String getProductDashboardURL()
+	{
+		String dashboardurl=pro.getProperty("productdashboardurl");
+		return dashboardurl;
+	}
+	
 
 	public String getUsername()
 	{
