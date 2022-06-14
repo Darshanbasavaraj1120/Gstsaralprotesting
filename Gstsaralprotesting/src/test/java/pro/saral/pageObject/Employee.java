@@ -344,7 +344,13 @@ public class Employee extends BaseClass {
 	}
 	public void delete_all_fields()
 	{
-		clickonpagination();
+		try
+		{
+			clickonpagination();
+		}
+		catch (Exception e) {
+			
+		}
 		clickoncheckboxall();
 		btndeleteclick();
 		btndeleteconfirmlick();
