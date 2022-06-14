@@ -34,7 +34,8 @@ public class Reporting extends TestListenerAdapter
 		extent = new ExtentReports ();
 		
 		extent.attachReporter(htmlReporter);
-		extent.setSystemInfo("Host Name","https://dev.saral.pro");
+		extent.setSystemInfo("Server","Production");
+		extent.setSystemInfo("Host Name","https://saral.pro/");
 		extent.setSystemInfo("Environment","QA");
 		extent.setSystemInfo("User Name","S Darshan");
 

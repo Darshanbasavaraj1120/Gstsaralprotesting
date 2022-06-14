@@ -28,7 +28,6 @@ public class Aimport_Test extends BaseClass{
 	
 	@BeforeMethod
 public void Login_Entry() throws InterruptedException, IOException{
-		driver.navigate().to(dashboardurl);
 		Employee emp=new Employee(driver);
 		LoginPage lp=new LoginPage(driver);
 		Thread.sleep(2000);
