@@ -9696,3 +9696,37 @@
 2022-06-14 10:35:24,909  INFO [main] saralpro:86 - Exit tour
 2022-06-14 10:35:24,980  INFO [main] saralpro:91 - login test passed
 2022-06-14 10:35:31,519  INFO [main] saralpro:40 - Exit tour
+2022-06-14 11:59:52,617  INFO [main] saralpro:64 - url is opened
+2022-06-14 11:59:53,767  INFO [main] saralpro:67 - Entered username
+2022-06-14 11:59:53,961  INFO [main] saralpro:69 - Entered password
+2022-06-14 11:59:55,144  INFO [main] saralpro:73 - Confirm login
+2022-06-14 11:59:59,504  INFO [main] saralpro:80 - Closed release notes
+2022-06-14 12:00:00,024  INFO [main] saralpro:86 - Exit tour
+2022-06-14 12:00:00,098  INFO [main] saralpro:91 - login test passed
+2022-06-14 12:00:05,274  INFO [main] saralpro:36 - Sent Text
+2022-06-14 12:00:05,864  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:00:09,671  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:00:12,070  INFO [main] saralpro:100 - Exit tour
+2022-06-14 12:00:12,515  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:00:17,566  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:00:19,764  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:00:23,879  INFO [main] saralpro:75 - Uploaded File
+2022-06-14 12:00:24,018  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:01:17,064  INFO [main] saralpro:64 - url is opened
+2022-06-14 12:01:18,191  INFO [main] saralpro:67 - Entered username
+2022-06-14 12:01:18,367  INFO [main] saralpro:69 - Entered password
+2022-06-14 12:01:19,570  INFO [main] saralpro:73 - Confirm login
+2022-06-14 12:01:24,628  INFO [main] saralpro:80 - Closed release notes
+2022-06-14 12:01:25,195  INFO [main] saralpro:86 - Exit tour
+2022-06-14 12:01:25,274  INFO [main] saralpro:91 - login test passed
+2022-06-14 12:01:30,330  INFO [main] saralpro:36 - Sent Text
+2022-06-14 12:01:30,982  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:01:34,803  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:01:37,354  INFO [main] saralpro:100 - Exit tour
+2022-06-14 12:01:37,766  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:01:42,160  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:01:44,371  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:01:48,602  INFO [main] saralpro:75 - Uploaded File
+2022-06-14 12:02:31,056  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:02:33,380  INFO [main] saralpro:30 - Clicked on element
+2022-06-14 12:02:46,282  INFO [main] saralpro:49 - Verified
