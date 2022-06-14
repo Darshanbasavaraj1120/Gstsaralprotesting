@@ -54,6 +54,10 @@ public class LoginPage extends BaseClass {
 	@CacheLookup
 	WebElement btnuser;
 	
+	@FindBy(xpath="//li[@id='nav-menu-item-13592']//child::span[@class='item_outer']")
+	@CacheLookup
+	WebElement loginlanding;
+	
 	@FindBy(xpath="//div[@class=\"UserConfig__s_link___3jKbG\"]")
 	@CacheLookup
 	WebElement btnlogout;
@@ -94,6 +98,7 @@ public class LoginPage extends BaseClass {
 	{
 		btnconfirm.click();
 	}
+	
 	public void closereleasenote()
 	{
 		btnnote.click();
@@ -101,6 +106,14 @@ public class LoginPage extends BaseClass {
 	public boolean releasenotesexist()
 	{
 		return releasenotes.isEnabled();
+	}
+	public boolean loginlandingexists()
+	{
+		return loginlanding.isDisplayed();
+	}
+	public void loginlandingclick()
+	{
+		loginlanding.click();
 	}
 	public boolean tourexist()
 	{
