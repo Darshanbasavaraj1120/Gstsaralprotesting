@@ -52,13 +52,13 @@ public class ReadConfig{
 	}
 	public String getProductURL()
 	{
-		String dashboardurl=pro.getProperty("dashboardURL");
-		return dashboardurl;
+		String producturl=pro.getProperty("productionurl");
+		return producturl;
 	}
 	public String getProductDashboardURL()
 	{
-		String dashboardurl=pro.getProperty("productdashboardurl");
-		return dashboardurl;
+		String productdashboardurl=pro.getProperty("productdashboardurl");
+		return productdashboardurl;
 	}
 	
 
