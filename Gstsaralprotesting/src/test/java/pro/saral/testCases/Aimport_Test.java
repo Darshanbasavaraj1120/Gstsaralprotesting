@@ -30,6 +30,7 @@ public class Aimport_Test extends BaseClass{
 public void Login_Entry() throws InterruptedException, IOException{
 		Employee emp=new Employee(driver);
 		LoginPage lp=new LoginPage(driver);
+		driver.navigate().to(productdashboardurl);
 		Thread.sleep(2000);
 		emp.entityhover();
 		emp.entityclick();
