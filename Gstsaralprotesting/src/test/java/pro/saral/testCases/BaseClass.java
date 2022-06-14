@@ -65,14 +65,13 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.get(producturl);
 		logger.info("url is opened");
+		LoginPage lp=new LoginPage(driver);
 		try {
-			driver.findElement(By.xpath("//li[@id='nav-menu-item-13592']//child::span[@class='item_outer']")).click();
+			lp.loginlandingclick();
 			logger.info("landing page closed");
 		}
 		catch(Exception  e){
 		}
-		
-		LoginPage lp=new LoginPage(driver);
 		lp.setUserName(username);
 		logger.info("Entered username");
 		lp.setPassword(password);
@@ -84,6 +83,7 @@ public class BaseClass {
 		}
 		catch(Exception  e){
 		}
+		Thread.sleep(2000);
 		if(lp.releasenotesexist())
 		{
 			lp.closereleasenote();
