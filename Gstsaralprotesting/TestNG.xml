@@ -12,7 +12,7 @@
 <!--<class name="pro.saral.testCases.UserManagement_test"/>-->
 <!-- <class name="pro.saral.testCases.Settings_Test"/> -->
 <!-- <class name="pro.saral.testCases.Tds_Stepper_Test"/> -->
-<!-- <class name="pro.saral.testCases.Employee_Test"/> -->
+<class name="pro.saral.testCases.Employee_Test"/>
 <class name="pro.saral.testCases.Deductee_Test"/>
 <class name="pro.saral.testCases.AChallan_Test"/>
 <class name="pro.saral.testCases.ADeduction_Test"/>
