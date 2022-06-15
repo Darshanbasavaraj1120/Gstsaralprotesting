@@ -124,6 +124,10 @@ public class Employee extends BaseClass {
 	@CacheLookup
 	WebElement btnedit;
 	
+	@FindBy(id="btn-editIcon-EmpTable-0")
+	@CacheLookup
+	WebElement btneditprod;
+	
 	@FindBy(id="Del-Emp-Ded")
 	@CacheLookup
 	WebElement btnddelete;
@@ -248,6 +252,10 @@ public class Employee extends BaseClass {
 	{
 		btnedit.click();
 	}
+	public void btneditclickprod()
+	{
+		btneditprod.click();
+	}
 	public void btndeleteclick()
 	{
 		btnddelete.click();
@@ -329,7 +337,20 @@ public class Employee extends BaseClass {
 	}
 	public void edit_fields()
 	{
-		btneditclick();
+		try
+		{
+			btneditclick();
+		}
+		catch (Exception e) {
+			
+		}
+		try
+		{
+			btneditclickprod();
+		}
+		catch (Exception e) {
+			
+		}
 		txtempname.clear();
 		empname("-pro");
 		btnupdateclick();
