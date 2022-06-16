@@ -83,18 +83,21 @@ public class BaseClass {
 		}
 		catch(Exception  e){
 		}
+		
 		Thread.sleep(2000);
-		if(lp.releasenotesexist())
-		{
-			lp.closereleasenote();
-			logger.info("Closed release notes");
-		}
 		if(lp.tourexist())
 		{
 			lp.Exittour();
 //			action.moveToElement(scanEle).click().build().perform();
 			logger.info("Exit tour");
 		}
+		Thread.sleep(2000);
+		if(lp.releasenotesexist())
+		{
+			lp.closereleasenote();
+			logger.info("Closed release notes");
+		}
+		
 		if(driver.getTitle().equals("Saral Pro"))
 		{
 			Assert.assertTrue(true);

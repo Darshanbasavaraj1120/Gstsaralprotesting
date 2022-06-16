@@ -42,7 +42,7 @@ public class LoginPage extends BaseClass {
 	@CacheLookup
 	WebElement btnconfirm;
 	
-	@FindBy(xpath="//body[1]/div[1]/div[6]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")
+	@FindBy(xpath="//*[@id='root']/div[5]/div[2]/div/div/div/div/div/div/div[1]")
 	@CacheLookup
 	WebElement btnnote;
 	
