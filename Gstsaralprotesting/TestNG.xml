@@ -17,13 +17,13 @@
 <class name="pro.saral.testCases.AChallan_Test"/>
 <class name="pro.saral.testCases.ADeduction_Test"/>
 <class name="pro.saral.testCases.Aimport_Test"/>
-<class name="pro.saral.testCases.AChallan_Mapping_Test"/>
 <class name="pro.saral.testCases.APredict_Default_Test"/>
 <class name="pro.saral.testCases.AEreturn_Test"/>
 <class name="pro.saral.testCases.Deduction_26Q/>
 <class name="pro.saral.testCases.Regression_Test"/>
-<class name="pro.saral.testCases.Import_26Q_Test"/> -->
-<class name="pro.saral.testCases.Challan_Mapping_26Q_Test"/>
+<class name="pro.saral.testCases.Import_26Q_Test"/>
+<class name="pro.saral.testCases.Challan_Mapping_26Q_Test"/> -->
+<class name="pro.saral.testCases.AChallan_Mapping_Test"/>
 </classes>
 </test>
 </suite>
