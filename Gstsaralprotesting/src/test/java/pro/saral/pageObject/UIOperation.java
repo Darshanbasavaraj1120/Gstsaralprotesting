@@ -66,6 +66,18 @@ public class UIOperation {
 			//Clear textbox
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(Keys.chord(Keys.CONTROL,"a", Keys.DELETE));
 			break;
+		case "ARROWRIGHT":
+			//Clear textbox
+			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(Keys.ARROW_RIGHT);
+			break;
+		case "ARROWLEFT":
+			//Clear textbox
+			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(Keys.ARROW_LEFT);
+			break;
+		case "BACKSPACE":
+			//Clear textbox
+			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(Keys.BACK_SPACE);
+			break;	
 		case "IMPLICTWAIT":
 			Thread.sleep(10000);
 			break;
