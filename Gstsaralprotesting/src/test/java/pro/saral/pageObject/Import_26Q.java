@@ -45,9 +45,9 @@ public class Import_26Q extends BaseClass{
 	@CacheLookup
 	WebElement tdstab;
 	
-	@FindBy(id="Employee")
+	@FindBy(id="deductee")
 	@CacheLookup
-	WebElement employeetab;
+	WebElement deducteetab;
 	
 	@FindBy(xpath="(//button[@Id='template-download-button'])[1]")
 	@CacheLookup
@@ -122,7 +122,7 @@ public class Import_26Q extends BaseClass{
 	@CacheLookup
 	WebElement addvalidfileerror;
 	
-	@FindBy(xpath="//td[contains(text(),'MOHAMMED ARIFULLAHMAJID TENGA')]")
+	@FindBy(xpath="//td[contains(text(),'ARUN')]")
 	@CacheLookup
 	WebElement masterdataverify;
 	
@@ -323,7 +323,7 @@ public class Import_26Q extends BaseClass{
 	@CacheLookup
 	WebElement empsavenotification;
 	
-	@FindBy(xpath="(//td[contains(text(),'T.D.SURESH')])[1]")
+	@FindBy(xpath="//td[contains(text(),'VS Enterprises')]")
 	@CacheLookup
 	WebElement verifytextdata;
 	
@@ -356,9 +356,9 @@ public class Import_26Q extends BaseClass{
 	{
 		tdstab.click();
 	}
-	public void clickonemployeetab()
+	public void clickondeducteetab()
 	{
-		employeetab.click();
+		deducteetab.click();
 	}
 	public void clickontemplate()
 	{
@@ -393,7 +393,7 @@ public class Import_26Q extends BaseClass{
 	public void uploadmasterfilepath() throws IOException
 	{
 
-		String absolute = new File(readconfig.masterimport()).getCanonicalPath();
+		String absolute = new File(readconfig.masterimport26()).getCanonicalPath();
 		
 		uploadfile.sendKeys(absolute);
 	}
@@ -421,7 +421,7 @@ public class Import_26Q extends BaseClass{
 	public void uploadvalidtextfilepath() throws IOException
 	{
 
-		String absolute = new File(readconfig.validtext()).getCanonicalPath();
+		String absolute = new File(readconfig.validtext26()).getCanonicalPath();
 		
 		uploadfile.sendKeys(absolute);
 	}
@@ -541,6 +541,11 @@ public class Import_26Q extends BaseClass{
 	{
 		Select statedropdown = new Select(fydropdown);
 		statedropdown.selectByVisibleText("FY 2021-22");
+	}
+	public void quarter()
+	{
+		Select statedropdown = new Select(quarterdropdown);
+		statedropdown.selectByVisibleText("Q2");
 	}
 	public void verifydata()
 	{
@@ -820,10 +825,12 @@ public class Import_26Q extends BaseClass{
 			clickonimporttab();
 			textimportbuttonclick();
 			fyyeartext();
+			quarter();
 			uploadvalidtextfilepath();
 			clickonclearbutton();
 			Thread.sleep(2000);
 			uploadvalidtextfilepath();
+			fyyeartext();
 			Thread.sleep(2000);
 			uploadbuttonclick();
 			try {
@@ -865,7 +872,7 @@ public class Import_26Q extends BaseClass{
 			clickonviewdata();
 			Thread.sleep(3000);
 			clickontdstab();
-			clickonemployeetab();
+			clickondeducteetab();
 			masterdataexist();
 			clickoncheckboxall();
 			btndeleteclick();

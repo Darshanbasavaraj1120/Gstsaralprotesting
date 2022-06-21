@@ -123,9 +123,19 @@ public class ReadConfig{
 		String Stepperinvalidexcelpath=pro.getProperty("24qmasterimport");
 		return Stepperinvalidexcelpath;
 	}
+	public String masterimport26()
+	{
+		String Stepperinvalidexcelpath=pro.getProperty("26qmasterimport");
+		return Stepperinvalidexcelpath;
+	}
 	public String validtext()
 	{
 		String Stepperinvalidexcelpath=pro.getProperty("24qvalidtext");
+		return Stepperinvalidexcelpath;
+	}
+	public String validtext26()
+	{
+		String Stepperinvalidexcelpath=pro.getProperty("26qvalidtext");
 		return Stepperinvalidexcelpath;
 	}
 	public String aerrorexcel()
