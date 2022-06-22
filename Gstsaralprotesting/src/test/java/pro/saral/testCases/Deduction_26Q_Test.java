@@ -12,7 +12,7 @@ import pro.saral.pageObject.UIOperation;
 import pro.saral.utilities.ReadExcel;
 import pro.saral.utilities.ReadObject;
 
-public class Deduction_26Q extends BaseClass{
+public class Deduction_26Q_Test extends BaseClass{
 
 	@Test(dataProvider="hybridData")
 	public void Deduction_26Q_Testcases(String testcaseName,String keyword,String objectName,String objectType,String value) throws Exception {	
