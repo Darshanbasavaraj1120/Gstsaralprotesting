@@ -8,21 +8,13 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pro.saral.testCases.Employee_Test">
+      <class name="pro.saral.testCases.Deduction_27Q_Test">
         <methods>
-          <include name="Edit_Fields_And_Update"/>
-          <include name="Download_Employyee_Excel"/>
-          <include name="Delete_Single_Fields"/>
+          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="Enter_All_Field_And_Check_Duplication"/>
-          <include name="Enter_All_Different_Pan_Cases"/>
-          <include name="Enter_All_Field_And_Check"/>
-          <include name="Delete_All_Fields"/>
-          <include name="Login_Entry"/>
-          <include name="Enter_Invalid_Date_And_Check_Validation"/>
-          <include name="Enter_Only_Mandatory_Field_And_Check"/>
+          <include name="Deduction_26Q_Testcases" invocation-numbers="127"/>
         </methods>
-      </class> <!-- pro.saral.testCases.Employee_Test -->
+      </class> <!-- pro.saral.testCases.Deduction_27Q_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->
