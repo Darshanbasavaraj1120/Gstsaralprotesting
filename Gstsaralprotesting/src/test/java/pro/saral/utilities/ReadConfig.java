@@ -103,6 +103,11 @@ public class ReadConfig{
 		String Steppervalidexcelpath=pro.getProperty("26Qvalidexcel");
 		return Steppervalidexcelpath;
 	}
+	public String cQvalidexcel()
+	{
+		String Steppervalidexcelpath=pro.getProperty("27Qvalidexcel");
+		return Steppervalidexcelpath;
+	}
 	public String invalidexcel()
 	{
 		String Stepperinvalidexcelpath=pro.getProperty("24Qinvalidexcelfile");
@@ -118,6 +123,11 @@ public class ReadConfig{
 		String Stepperinvalidexcelpath=pro.getProperty("26qvalidconso");
 		return Stepperinvalidexcelpath;
 	}
+	public String cvalidconso()
+	{
+		String Stepperinvalidexcelpath=pro.getProperty("27qvalidconso");
+		return Stepperinvalidexcelpath;
+	}
 	public String masterimport()
 	{
 		String Stepperinvalidexcelpath=pro.getProperty("24qmasterimport");
@@ -126,6 +136,11 @@ public class ReadConfig{
 	public String masterimport26()
 	{
 		String Stepperinvalidexcelpath=pro.getProperty("26qmasterimport");
+		return Stepperinvalidexcelpath;
+	}
+	public String masterimport27()
+	{
+		String Stepperinvalidexcelpath=pro.getProperty("27qmasterimport");
 		return Stepperinvalidexcelpath;
 	}
 	public String validtext()
@@ -138,6 +153,11 @@ public class ReadConfig{
 		String Stepperinvalidexcelpath=pro.getProperty("26qvalidtext");
 		return Stepperinvalidexcelpath;
 	}
+	public String validtext27()
+	{
+		String Stepperinvalidexcelpath=pro.getProperty("27qvalidtext");
+		return Stepperinvalidexcelpath;
+	}
 	public String aerrorexcel()
 	{
 		String Stepperinvalidexcelpath=pro.getProperty("24qerrorexcelfile");
@@ -146,6 +166,11 @@ public class ReadConfig{
 	public String berrorexcel()
 	{
 		String Stepperinvalidexcelpath=pro.getProperty("26qerrorexcelfile");
+		return Stepperinvalidexcelpath;
+	}
+	public String cerrorexcel()
+	{
+		String Stepperinvalidexcelpath=pro.getProperty("27qerrorexcelfile");
 		return Stepperinvalidexcelpath;
 	}
 	public String Stepperinvalidexcel()

@@ -18607,3 +18607,207 @@
 2022-06-23 17:27:09,878  INFO [main] saralpro:30 - Clicked on element
 2022-06-23 17:27:12,127  INFO [main] saralpro:30 - Clicked on element
 2022-06-23 17:27:14,223  INFO [main] saralpro:58 - Verified
+2022-06-24 10:39:22,183  INFO [main] saralpro:67 - url is opened
+2022-06-24 10:39:24,697  INFO [main] saralpro:71 - landing page closed
+2022-06-24 10:39:27,259  INFO [main] saralpro:76 - Entered username
+2022-06-24 10:39:27,478  INFO [main] saralpro:78 - Entered password
+2022-06-24 10:39:33,609  INFO [main] saralpro:92 - Exit tour
+2022-06-24 10:39:35,873  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 10:39:35,905  INFO [main] saralpro:104 - login test passed
+2022-06-24 10:39:41,881  INFO [main] saralpro:25 - Exit tour
+2022-06-24 10:41:07,250  INFO [main] saralpro:67 - url is opened
+2022-06-24 10:41:09,698  INFO [main] saralpro:71 - landing page closed
+2022-06-24 10:41:12,357  INFO [main] saralpro:76 - Entered username
+2022-06-24 10:41:12,559  INFO [main] saralpro:78 - Entered password
+2022-06-24 10:41:14,044  INFO [main] saralpro:82 - Confirm login
+2022-06-24 10:41:16,925  INFO [main] saralpro:92 - Exit tour
+2022-06-24 10:41:19,299  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 10:41:19,334  INFO [main] saralpro:104 - login test passed
+2022-06-24 10:41:25,129  INFO [main] saralpro:25 - Exit tour
+2022-06-24 10:46:18,342  INFO [main] saralpro:67 - url is opened
+2022-06-24 10:46:20,777  INFO [main] saralpro:71 - landing page closed
+2022-06-24 10:46:23,195  INFO [main] saralpro:76 - Entered username
+2022-06-24 10:46:23,415  INFO [main] saralpro:78 - Entered password
+2022-06-24 10:46:25,032  INFO [main] saralpro:82 - Confirm login
+2022-06-24 10:46:28,101  INFO [main] saralpro:92 - Exit tour
+2022-06-24 10:46:30,492  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 10:46:30,588  INFO [main] saralpro:104 - login test passed
+2022-06-24 10:46:36,521  INFO [main] saralpro:25 - Exit tour
+2022-06-24 10:59:39,268  INFO [main] saralpro:67 - url is opened
+2022-06-24 10:59:41,550  INFO [main] saralpro:71 - landing page closed
+2022-06-24 10:59:44,313  INFO [main] saralpro:76 - Entered username
+2022-06-24 10:59:44,543  INFO [main] saralpro:78 - Entered password
+2022-06-24 10:59:45,730  INFO [main] saralpro:82 - Confirm login
+2022-06-24 10:59:48,899  INFO [main] saralpro:92 - Exit tour
+2022-06-24 10:59:51,320  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 10:59:51,340  INFO [main] saralpro:104 - login test passed
+2022-06-24 10:59:57,167  INFO [main] saralpro:25 - Exit tour
+2022-06-24 11:21:53,600  INFO [main] saralpro:67 - url is opened
+2022-06-24 11:21:56,448  INFO [main] saralpro:71 - landing page closed
+2022-06-24 11:21:58,913  INFO [main] saralpro:76 - Entered username
+2022-06-24 11:21:59,158  INFO [main] saralpro:78 - Entered password
+2022-06-24 11:22:05,536  INFO [main] saralpro:92 - Exit tour
+2022-06-24 11:22:07,821  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 11:22:07,837  INFO [main] saralpro:104 - login test passed
+2022-06-24 11:22:15,676  INFO [main] saralpro:25 - Exit tour
+2022-06-24 11:27:20,345  INFO [main] saralpro:67 - url is opened
+2022-06-24 11:27:22,675  INFO [main] saralpro:71 - landing page closed
+2022-06-24 11:27:25,325  INFO [main] saralpro:76 - Entered username
+2022-06-24 11:27:25,555  INFO [main] saralpro:78 - Entered password
+2022-06-24 11:27:27,917  INFO [main] saralpro:82 - Confirm login
+2022-06-24 11:27:31,010  INFO [main] saralpro:92 - Exit tour
+2022-06-24 11:27:33,406  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 11:27:33,438  INFO [main] saralpro:104 - login test passed
+2022-06-24 11:27:39,737  INFO [main] saralpro:25 - Exit tour
+2022-06-24 14:34:49,542  INFO [main] saralpro:67 - url is opened
+2022-06-24 14:34:51,378  INFO [main] saralpro:71 - landing page closed
+2022-06-24 14:34:53,908  INFO [main] saralpro:76 - Entered username
+2022-06-24 14:34:54,083  INFO [main] saralpro:78 - Entered password
+2022-06-24 14:34:55,515  INFO [main] saralpro:82 - Confirm login
+2022-06-24 14:34:58,612  INFO [main] saralpro:92 - Exit tour
+2022-06-24 14:35:00,925  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 14:35:00,941  INFO [main] saralpro:104 - login test passed
+2022-06-24 14:35:06,570  INFO [main] saralpro:25 - Exit tour
+2022-06-24 14:52:39,202  INFO [main] saralpro:67 - url is opened
+2022-06-24 14:52:40,920  INFO [main] saralpro:71 - landing page closed
+2022-06-24 14:52:43,447  INFO [main] saralpro:76 - Entered username
+2022-06-24 14:52:43,660  INFO [main] saralpro:78 - Entered password
+2022-06-24 14:52:49,225  INFO [main] saralpro:92 - Exit tour
+2022-06-24 14:52:51,449  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 14:52:51,466  INFO [main] saralpro:104 - login test passed
+2022-06-24 14:52:56,889  INFO [main] saralpro:25 - Exit tour
+2022-06-24 16:46:14,854  INFO [main] saralpro:67 - url is opened
+2022-06-24 16:46:16,943  INFO [main] saralpro:71 - landing page closed
+2022-06-24 16:46:19,810  INFO [main] saralpro:76 - Entered username
+2022-06-24 16:46:20,023  INFO [main] saralpro:78 - Entered password
+2022-06-24 16:46:21,175  INFO [main] saralpro:82 - Confirm login
+2022-06-24 16:46:24,068  INFO [main] saralpro:92 - Exit tour
+2022-06-24 16:46:26,392  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 16:46:26,407  INFO [main] saralpro:104 - login test passed
+2022-06-24 16:46:31,913  INFO [main] saralpro:25 - Exit tour
+2022-06-24 16:47:33,428  INFO [main] saralpro:67 - url is opened
+2022-06-24 16:47:35,326  INFO [main] saralpro:71 - landing page closed
+2022-06-24 16:47:38,137  INFO [main] saralpro:76 - Entered username
+2022-06-24 16:47:38,361  INFO [main] saralpro:78 - Entered password
+2022-06-24 16:47:39,682  INFO [main] saralpro:82 - Confirm login
+2022-06-24 16:47:42,586  INFO [main] saralpro:92 - Exit tour
+2022-06-24 16:47:44,881  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 16:47:44,887  INFO [main] saralpro:104 - login test passed
+2022-06-24 16:47:50,265  INFO [main] saralpro:25 - Exit tour
+2022-06-24 16:53:25,111  INFO [main] saralpro:67 - url is opened
+2022-06-24 16:53:27,034  INFO [main] saralpro:71 - landing page closed
+2022-06-24 16:53:29,766  INFO [main] saralpro:76 - Entered username
+2022-06-24 16:53:29,999  INFO [main] saralpro:78 - Entered password
+2022-06-24 16:53:31,512  INFO [main] saralpro:82 - Confirm login
+2022-06-24 16:53:34,381  INFO [main] saralpro:92 - Exit tour
+2022-06-24 16:53:36,666  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 16:53:36,680  INFO [main] saralpro:104 - login test passed
+2022-06-24 16:53:42,205  INFO [main] saralpro:25 - Exit tour
+2022-06-24 17:45:34,350  INFO [main] saralpro:67 - url is opened
+2022-06-24 17:45:35,576  INFO [main] saralpro:71 - landing page closed
+2022-06-24 17:45:37,634  INFO [main] saralpro:76 - Entered username
+2022-06-24 17:45:37,776  INFO [main] saralpro:78 - Entered password
+2022-06-24 17:45:39,600  INFO [main] saralpro:82 - Confirm login
+2022-06-24 17:45:42,507  INFO [main] saralpro:92 - Exit tour
+2022-06-24 17:45:44,782  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 17:45:44,797  INFO [main] saralpro:104 - login test passed
+2022-06-24 17:45:49,642  INFO [main] saralpro:25 - Exit tour
+2022-06-24 17:53:43,716  INFO [main] saralpro:67 - url is opened
+2022-06-24 17:53:45,721  INFO [main] saralpro:71 - landing page closed
+2022-06-24 17:53:48,458  INFO [main] saralpro:76 - Entered username
+2022-06-24 17:53:48,691  INFO [main] saralpro:78 - Entered password
+2022-06-24 17:53:49,874  INFO [main] saralpro:82 - Confirm login
+2022-06-24 17:53:52,755  INFO [main] saralpro:92 - Exit tour
+2022-06-24 17:53:55,043  INFO [main] saralpro:98 - Closed release notes
+2022-06-24 17:53:55,063  INFO [main] saralpro:104 - login test passed
+2022-06-24 17:54:00,560  INFO [main] saralpro:25 - Exit tour
+2022-06-27 11:31:33,177  INFO [main] saralpro:67 - url is opened
+2022-06-27 11:31:35,043  INFO [main] saralpro:71 - landing page closed
+2022-06-27 11:31:37,462  INFO [main] saralpro:76 - Entered username
+2022-06-27 11:31:37,659  INFO [main] saralpro:78 - Entered password
+2022-06-27 11:31:38,781  INFO [main] saralpro:82 - Confirm login
+2022-06-27 11:31:41,515  INFO [main] saralpro:92 - Exit tour
+2022-06-27 11:31:43,816  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 11:31:43,836  INFO [main] saralpro:104 - login test passed
+2022-06-27 11:31:49,118  INFO [main] saralpro:25 - Exit tour
+2022-06-27 11:36:52,850  INFO [main] saralpro:67 - url is opened
+2022-06-27 11:41:51,776  INFO [main] saralpro:67 - url is opened
+2022-06-27 11:41:53,526  INFO [main] saralpro:71 - landing page closed
+2022-06-27 11:41:56,075  INFO [main] saralpro:76 - Entered username
+2022-06-27 11:41:56,262  INFO [main] saralpro:78 - Entered password
+2022-06-27 11:41:57,628  INFO [main] saralpro:82 - Confirm login
+2022-06-27 11:42:00,476  INFO [main] saralpro:92 - Exit tour
+2022-06-27 11:42:02,779  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 11:42:02,796  INFO [main] saralpro:104 - login test passed
+2022-06-27 11:42:08,074  INFO [main] saralpro:25 - Exit tour
+2022-06-27 11:52:56,149  INFO [main] saralpro:67 - url is opened
+2022-06-27 11:52:58,006  INFO [main] saralpro:71 - landing page closed
+2022-06-27 11:53:00,515  INFO [main] saralpro:76 - Entered username
+2022-06-27 11:53:00,687  INFO [main] saralpro:78 - Entered password
+2022-06-27 11:53:02,105  INFO [main] saralpro:82 - Confirm login
+2022-06-27 11:53:04,839  INFO [main] saralpro:92 - Exit tour
+2022-06-27 11:53:07,139  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 11:53:07,165  INFO [main] saralpro:104 - login test passed
+2022-06-27 11:53:12,555  INFO [main] saralpro:25 - Exit tour
+2022-06-27 11:57:41,118  INFO [main] saralpro:67 - url is opened
+2022-06-27 11:57:43,311  INFO [main] saralpro:71 - landing page closed
+2022-06-27 11:57:46,067  INFO [main] saralpro:76 - Entered username
+2022-06-27 11:57:46,279  INFO [main] saralpro:78 - Entered password
+2022-06-27 11:57:47,448  INFO [main] saralpro:82 - Confirm login
+2022-06-27 11:57:50,848  INFO [main] saralpro:92 - Exit tour
+2022-06-27 11:57:53,449  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 11:57:53,458  INFO [main] saralpro:104 - login test passed
+2022-06-27 11:57:59,380  INFO [main] saralpro:25 - Exit tour
+2022-06-27 12:08:34,220  INFO [main] saralpro:67 - url is opened
+2022-06-27 12:08:36,826  INFO [main] saralpro:71 - landing page closed
+2022-06-27 12:08:40,034  INFO [main] saralpro:76 - Entered username
+2022-06-27 12:08:40,259  INFO [main] saralpro:78 - Entered password
+2022-06-27 12:08:41,747  INFO [main] saralpro:82 - Confirm login
+2022-06-27 12:08:45,213  INFO [main] saralpro:92 - Exit tour
+2022-06-27 12:08:47,489  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 12:08:47,506  INFO [main] saralpro:104 - login test passed
+2022-06-27 12:08:52,665  INFO [main] saralpro:25 - Exit tour
+2022-06-27 12:13:18,605  INFO [main] saralpro:67 - url is opened
+2022-06-27 12:13:20,836  INFO [main] saralpro:71 - landing page closed
+2022-06-27 12:13:23,531  INFO [main] saralpro:76 - Entered username
+2022-06-27 12:13:23,757  INFO [main] saralpro:78 - Entered password
+2022-06-27 12:13:25,181  INFO [main] saralpro:82 - Confirm login
+2022-06-27 12:13:28,455  INFO [main] saralpro:92 - Exit tour
+2022-06-27 12:13:30,828  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 12:13:30,842  INFO [main] saralpro:104 - login test passed
+2022-06-27 12:13:38,412  INFO [main] saralpro:25 - Exit tour
+2022-06-27 12:20:37,520  INFO [main] saralpro:67 - url is opened
+2022-06-27 12:20:39,960  INFO [main] saralpro:71 - landing page closed
+2022-06-27 12:20:42,719  INFO [main] saralpro:76 - Entered username
+2022-06-27 12:20:42,888  INFO [main] saralpro:78 - Entered password
+2022-06-27 12:20:44,018  INFO [main] saralpro:82 - Confirm login
+2022-06-27 12:20:47,081  INFO [main] saralpro:92 - Exit tour
+2022-06-27 12:20:49,436  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 12:20:49,453  INFO [main] saralpro:104 - login test passed
+2022-06-27 12:25:52,493  INFO [main] saralpro:67 - url is opened
+2022-06-27 12:25:53,789  INFO [main] saralpro:71 - landing page closed
+2022-06-27 12:25:56,661  INFO [main] saralpro:76 - Entered username
+2022-06-27 12:25:56,845  INFO [main] saralpro:78 - Entered password
+2022-06-27 12:25:58,062  INFO [main] saralpro:82 - Confirm login
+2022-06-27 12:26:00,672  INFO [main] saralpro:92 - Exit tour
+2022-06-27 12:26:02,982  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 12:26:02,996  INFO [main] saralpro:104 - login test passed
+2022-06-27 12:26:08,312  INFO [main] saralpro:25 - Exit tour
+2022-06-27 12:29:19,940  INFO [main] saralpro:67 - url is opened
+2022-06-27 12:29:21,904  INFO [main] saralpro:71 - landing page closed
+2022-06-27 12:29:24,302  INFO [main] saralpro:76 - Entered username
+2022-06-27 12:29:24,498  INFO [main] saralpro:78 - Entered password
+2022-06-27 12:29:25,625  INFO [main] saralpro:82 - Confirm login
+2022-06-27 12:29:28,691  INFO [main] saralpro:92 - Exit tour
+2022-06-27 12:29:31,027  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 12:29:31,058  INFO [main] saralpro:104 - login test passed
+2022-06-27 12:29:36,390  INFO [main] saralpro:25 - Exit tour
+2022-06-27 12:33:30,619  INFO [main] saralpro:67 - url is opened
+2022-06-27 12:33:33,245  INFO [main] saralpro:71 - landing page closed
+2022-06-27 12:33:35,694  INFO [main] saralpro:76 - Entered username
+2022-06-27 12:33:35,881  INFO [main] saralpro:78 - Entered password
+2022-06-27 12:33:37,107  INFO [main] saralpro:82 - Confirm login
+2022-06-27 12:33:39,855  INFO [main] saralpro:92 - Exit tour
+2022-06-27 12:33:42,200  INFO [main] saralpro:98 - Closed release notes
+2022-06-27 12:33:42,207  INFO [main] saralpro:104 - login test passed
+2022-06-27 12:33:47,735  INFO [main] saralpro:25 - Exit tour

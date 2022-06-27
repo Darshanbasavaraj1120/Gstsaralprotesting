@@ -8,13 +8,14 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pro.saral.testCases.Deduction_27Q_Test">
+      <class name="pro.saral.testCases.Import_27Q_Test">
         <methods>
           <include name="tearDown"/>
+          <include name="Login_Entry"/>
+          <include name="Upload_Invalid_Excel_And_Check_Errors"/>
           <include name="setup"/>
-          <include name="Deduction_26Q_Testcases" invocation-numbers="127"/>
         </methods>
-      </class> <!-- pro.saral.testCases.Deduction_27Q_Test -->
+      </class> <!-- pro.saral.testCases.Import_27Q_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->
