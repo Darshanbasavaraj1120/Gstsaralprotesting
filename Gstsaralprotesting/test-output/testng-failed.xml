@@ -8,13 +8,13 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="pro.saral.testCases.Challan_Mapping_27Q_Test">
+      <class name="pro.saral.testCases.Predict_Default_27Q_Test">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="PredictDefault_Testcases" invocation-numbers="203"/>
+          <include name="PredictDefault_Testcases" invocation-numbers="16 19 22 25 28 35 38 41 43 44"/>
         </methods>
-      </class> <!-- pro.saral.testCases.Challan_Mapping_27Q_Test -->
+      </class> <!-- pro.saral.testCases.Predict_Default_27Q_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->
