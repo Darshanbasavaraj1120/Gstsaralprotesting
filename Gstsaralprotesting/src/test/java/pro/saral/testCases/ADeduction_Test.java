@@ -14,7 +14,7 @@ import pro.saral.utilities.ReadObject;
 
 public class ADeduction_Test extends BaseClass {
 	@Test(dataProvider="hybridData")
-	public void Deduction_Testcases(String testcaseName,String keyword,String objectName,String objectType,String value) throws Exception {
+	public void Deduction_24Q_Testcases(String testcaseName,String keyword,String objectName,String objectType,String value) throws Exception {
 		// TODO Auto-generated method stub
       
         ReadObject object = new ReadObject();

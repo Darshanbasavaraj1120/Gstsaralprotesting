@@ -139,9 +139,13 @@ public class Aimport extends BaseClass{
 	@CacheLookup
 	WebElement textchallannumber;
 	
-	@FindBy(xpath="//tbody/tr[3]/td[4]/span[contains(text(),'6')]")
+	@FindBy(xpath="//tbody/tr[3]/td[4]/span[contains(text(),'5')]")
 	@CacheLookup
 	WebElement deductionnumber;
+	
+	@FindBy(xpath="//tbody/tr[3]/td[4]/span[contains(text(),'6')]")
+	@CacheLookup
+	WebElement consodeductionnumber;
 	
 	@FindBy(xpath="//tbody/tr[3]/td[4]/span[contains(text(),'4')]")
 	@CacheLookup
@@ -452,6 +456,10 @@ public class Aimport extends BaseClass{
 	public void deductionnumberverify()
 	{
 		deductionnumber.isDisplayed();
+	}
+	public void consodeductionnumberverify()
+	{
+		consodeductionnumber.isDisplayed();
 	}
 	public void textdeductionnumberverify()
 	{
@@ -801,7 +809,7 @@ public class Aimport extends BaseClass{
 			deductorsuccessverify();
 			challannumberverify();
 			challansuccessverify();
-			deductionnumberverify();
+			consodeductionnumberverify();
 			deductionsuccessrverify();
 			clickonviewdata();
 			verifydata();

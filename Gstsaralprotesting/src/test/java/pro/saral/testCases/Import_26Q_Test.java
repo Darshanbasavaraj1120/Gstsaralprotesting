@@ -28,7 +28,7 @@ public void Login_Entry() throws InterruptedException, IOException{
 		}
 	}
 	@Test(priority=0)
-	public void Download_Template_And_Verify() throws IOException, InterruptedException
+	public void Download_Template_And_Verify_26Q() throws IOException, InterruptedException
 	{
 		Import_26Q imp=new Import_26Q(driver);
 		imp.Download_Template();
