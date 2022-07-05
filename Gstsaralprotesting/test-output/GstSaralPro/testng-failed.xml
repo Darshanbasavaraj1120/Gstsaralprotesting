@@ -8,13 +8,119 @@
   <test name="GstSaral Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="pro.saral.testCases.APredict_Default_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.APredict_Default_Test -->
+      <class name="pro.saral.testCases.Deductee_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Deductee_Test -->
+      <class name="pro.saral.testCases.Import_27Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login_Entry"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Import_27Q_Test -->
+      <class name="pro.saral.testCases.AChallan_Mapping_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.AChallan_Mapping_Test -->
+      <class name="pro.saral.testCases.Employee_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Login_Entry"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Employee_Test -->
+      <class name="pro.saral.testCases.ADeduction_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.ADeduction_Test -->
+      <class name="pro.saral.testCases.Predict_Default_26Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Predict_Default_26Q_Test -->
+      <class name="pro.saral.testCases.Deduction_26Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Deduction_26Q_Test -->
       <class name="pro.saral.testCases.Ereturn_26Q_Test">
         <methods>
           <include name="tearDown"/>
-          <include name="Ereturn_26Q_Testcases" invocation-numbers="6 7 9 10 11 12 36 37 64 65 72 73 80 81"/>
           <include name="setup"/>
         </methods>
       </class> <!-- pro.saral.testCases.Ereturn_26Q_Test -->
+      <class name="pro.saral.testCases.Predict_Default_27Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="PredictDefault_27Q_Testcases" invocation-numbers="34 35 36"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Predict_Default_27Q_Test -->
+      <class name="pro.saral.testCases.Deduction_27Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Deduction_27Q_Test -->
+      <class name="pro.saral.testCases.Aimport_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Login_Entry"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Aimport_Test -->
+      <class name="pro.saral.testCases.Challan_Mapping_26Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Challan_Mapping_26Q_Test -->
+      <class name="pro.saral.testCases.AEreturn_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.AEreturn_Test -->
+      <class name="pro.saral.testCases.Import_26Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login_Entry"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Import_26Q_Test -->
+      <class name="pro.saral.testCases.Ereturn_27Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Ereturn_27Q_Test -->
+      <class name="pro.saral.testCases.Challan_Mapping_27Q_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.Challan_Mapping_27Q_Test -->
+      <class name="pro.saral.testCases.AChallan_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pro.saral.testCases.AChallan_Test -->
     </classes>
   </test> <!-- GstSaral Test(failed) -->
 </suite> <!-- Failed suite [GstSaralPro] -->
