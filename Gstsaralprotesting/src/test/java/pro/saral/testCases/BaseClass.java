@@ -63,7 +63,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.get(producturl);
+		driver.get(baseurl);
 		logger.info("url is opened");
 		LoginPage lp=new LoginPage(driver);
 		try {

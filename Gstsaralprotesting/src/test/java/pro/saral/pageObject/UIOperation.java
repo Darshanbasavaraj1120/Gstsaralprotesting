@@ -27,12 +27,14 @@ public class UIOperation {
 		switch (operation.toUpperCase()) {
 		case "CLICK":
 			//Perform click
+			wait.until(ExpectedConditions.visibilityOf(driver.findElement(this.getObject(p, objectName, objectType))));
 			wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(this.getObject(p, objectName, objectType)))).click();;
 			logger.info("Clicked on element");
 			Thread.sleep(2000);
 			break;
 		case "SETTEXT":
 			//Set text on control
+			wait.until(ExpectedConditions.visibilityOf(driver.findElement(this.getObject(p, objectName, objectType))));
 			driver.findElement(this.getObject(p,objectName,objectType)).sendKeys(value);
 			logger.info("Sent Text");
 			break;
@@ -59,6 +61,7 @@ public class UIOperation {
 			logger.info("Verified");
 			break;
 		case "SELECTDROPDOWN":
+			wait.until(ExpectedConditions.visibilityOf(driver.findElement(this.getObject(p, objectName, objectType))));
 			Select se = new Select(driver.findElement(this.getObject(p,objectName,objectType)));
 			se.selectByVisibleText(value);
 			logger.info("Selected dropdown");

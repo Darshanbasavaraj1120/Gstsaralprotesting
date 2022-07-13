@@ -3,18 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pro.saral.testCases.Import_27Q_Test">
+      <class name="pro.saral.testCases.Employee_Test">
         <methods>
-          <include name="Check_Tan_Validation"/>
-          <include name="Upload_Valid_Excel_And_Check_Sucess_Status"/>
-          <include name="Upload_Valid_Master_Excel_And_Check_Sucess_Status"/>
-          <include name="Upload_Invalid_Excel_And_Check_Errors"/>
-          <include name="Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation"/>
-          <include name="Upload_Valid_Text_And_Check_Sucess_Status"/>
-          <include name="Upload_Valid_Conso_And_Check_Sucess_Status"/>
-          <include name="Download_Template_And_Verify"/>
+          <include name="Enter_All_Field_And_Check_Duplication"/>
+          <include name="Enter_All_Different_Pan_Cases"/>
+          <include name="Delete_All_Fields"/>
         </methods>
-      </class> <!-- pro.saral.testCases.Import_27Q_Test -->
+      </class> <!-- pro.saral.testCases.Employee_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

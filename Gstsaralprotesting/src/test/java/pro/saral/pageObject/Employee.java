@@ -171,9 +171,9 @@ public class Employee extends BaseClass {
 	}
 	public void empaddclick()
 	{
-		WebDriverWait wait = new WebDriverWait(driver, 40);
-		wait.until(ExpectedConditions.elementToBeClickable(employeeadd));
-		employeeadd.click();
+		WebDriverWait wait=new WebDriverWait(idriver, 30);
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("btn-addIcon-empDedMaster"))));
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("btn-addIcon-empDedMaster")))).click();;
 	}
 	public void entityclick()
 	{
@@ -363,8 +363,9 @@ public class Employee extends BaseClass {
 		btndeleteconfirmlick();
 		empsavenotification();
 	}
-	public void delete_all_fields()
+	public void delete_all_fields() throws InterruptedException
 	{
+		Thread.sleep(2000);
 		try
 		{
 			clickonpagination();
@@ -385,7 +386,6 @@ public class Employee extends BaseClass {
 		empcategory(excelutils.getCellData(41, 7));
 		btnempsaveclick();
 		empsavenotification();
-		Thread.sleep(3000);
 		empaddclick();
 		empname(excelutils.getCellData(42, 0));
 		emppan(excelutils.getCellData(44, 1));

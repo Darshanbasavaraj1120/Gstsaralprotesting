@@ -12,7 +12,7 @@
 <class name="pro.saral.testCases.UserManagement_test"/>
 <class name="pro.saral.testCases.Settings_Test"/>
 <class name="pro.saral.testCases.Tds_Stepper_Test"/>-->
-<!-- <class name="pro.saral.testCases.Employee_Test"/>
+<class name="pro.saral.testCases.Employee_Test"/>
 <class name="pro.saral.testCases.Deductee_Test"/>
 <class name="pro.saral.testCases.AChallan_Test"/>
 <class name="pro.saral.testCases.ADeduction_Test"/>
@@ -21,7 +21,6 @@
 <class name="pro.saral.testCases.APredict_Default_Test"/>
 <class name="pro.saral.testCases.AEreturn_Test"/>
 <class name="pro.saral.testCases.Deduction_26Q_Test"/>
- <class name="pro.saral.testCases.Import_26Q_Test"/>
 <class name="pro.saral.testCases.Challan_Mapping_26Q_Test"/>
 <class name="pro.saral.testCases.Predict_Default_26Q_Test"/>
 <class name="pro.saral.testCases.Ereturn_26Q_Test"/>
@@ -30,8 +29,10 @@
 <class name="pro.saral.testCases.Challan_Mapping_27Q_Test"/>
 <class name="pro.saral.testCases.Predict_Default_27Q_Test"/>
 <class name="pro.saral.testCases.Ereturn_27Q_Test"/> 
-<class name="pro.saral.testCases.Collection_27EQ_Test"/>-->
+<class name="pro.saral.testCases.Collection_27EQ_Test"/>
+<class name="pro.saral.testCases.Import_27EQ_Test"/>
 <class name="pro.saral.testCases.Challan_Mapping_27EQ_Test"/>
+<class name="pro.saral.testCases.Predict_Default_27EQ_Test"/>
 </classes>
 </test>
 </suite>
