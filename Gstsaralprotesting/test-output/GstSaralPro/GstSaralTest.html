@@ -1,0 +1,2978 @@
+<html>
+<head>
+<title>TestNG:  GstSaralTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GstSaralTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/547</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 22 14:51:01 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12933 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.setup()'><b>setup</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: firefox</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DARSHAN&apos;, ip: &apos;192.168.2.30&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 9964, moz:profile: C:\Users\Darshan\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9b74716d-8f49-4133-a7d8-83fbf4b43013
+*** Element info: {Using=name, value=email}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at pro.saral.pageObject.LoginPage.setUserName(LoginPage.java:93)
+	at pro.saral.testCases.BaseClass.setup(BaseClass.java:69)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1758839204", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1758839204'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DARSHAN&apos;, ip: &apos;192.168.2.30&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 9964, moz:profile: C:\Users\Darshan\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9b74716d-8f49-4133-a7d8-83fbf4b43013
+*** Element info: {Using=name, value=email}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at pro.saral.pageObject.LoginPage.setUserName(LoginPage.java:93)
+	at pro.saral.testCases.BaseClass.setup(BaseClass.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:521)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.setup()'><b>setup</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27Q_Test.setup()'><b>setup</b><br>Test class: pro.saral.testCases.Import_27Q_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27Q_Test@3498ed</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27Q_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27Q_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27Q_Test@3498ed</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Login_Entry()'><b>Login_Entry</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.tearDown()'><b>tearDown</b><br>Test class: pro.saral.testCases.Test_27EQ</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27Q_Test.tearDown()'><b>tearDown</b><br>Test class: pro.saral.testCases.Import_27Q_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27Q_Test@3498ed</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.tearDown()'><b>tearDown</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Check_Tan_Validation()'><b>Check_Tan_Validation</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation()'><b>Click_On_Upload_File_without_Selecting_Excel_File_and_verify_validation</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Download_Template_And_Verify_27EQ()'><b>Download_Template_And_Verify_27EQ</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Deduction Page Navigation, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 3.0, SETTEXT, search, Xpath, Saral_Pro_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 4.0, CLICK, entity, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 5.0, CLICK, client, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 6.0, EXITTOUR, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 7.0, WAIT, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 8.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 27EQ collection, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 10.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 11.0, SETTEXT, deductionname, ID, A</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Verify Add New Employee Button from Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 13.0, CLICK, addnewemployee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , TRY, copydeducteeno, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 14.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 15.0, SETTEXT, deducteename, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 16.0, SETTEXT, deducteerefnum, ID, Relyon1234</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 17.0, SETTEXT, deducteepan, XPATH, NYUPF6764N</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 18.0, SELECTDROPDOWN, deducteecode, ID, Other Than Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 21.0, SETTEXT, deducteeaddress, ID, Rajaji nagar</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 22.0, SELECTDROPDOWN, deducteestate, ID, KARNATAKA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, deducteeemailid, ID, abc@abc.abc</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 24.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 25.0, SETTEXT, deducteename, ID, Arun</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 26.0, SETTEXT, deducteepan, XPATH, PANINVALID</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 27.0, SELECTDROPDOWN, deducteecode, ID, Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 28.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 29.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Check Mandatory Field, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 31.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 32.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 33.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 34.0, SETTEXT, deductionname, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , WAIT, kiranemployee, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 35.0, CLICK, kiranemployee, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 36.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 37.0, VERIFYNOTIFICATION, nameerrormessage, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 38.0, CLICK, errorclick1, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 39.0, VERIFYNOTIFICATION, panerrormessage, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Enter Valid Deduction Fields And Save, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 41.0, SELECTDROPDOWN, deductionsection, ID, 6CD</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 42.0, SELECTDROPDOWN, deductionremark, ID, A-AS PER SECTION 206C(9)</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, 27eqamountofpurchase, ID, 8000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 43.0, SETTEXT, 27eqamountofpayment, ID, 10000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 46.0, CLICK, deductionsurgerate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 47.0, SETTEXT, deductionsurgerate, ID, 2.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 48.0, CLICK, deductionsurgeamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 49.0, SETTEXT, deductionsurgeamount, ID, 40.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 50.0, CLICK, deductioncessrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 51.0, SETTEXT, deductioncessrate, ID, 2.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 52.0, CLICK, deductioncessamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 53.0, SETTEXT, deductioncessamount, ID, 40.8</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, us197certno, ID, RSL1234553</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 57.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 58.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Check All Fields Validation, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 60.0, SETTEXT, deductionname, ID, Arun</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 61.0, WAIT, employeeclick2, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 62.0, CLICK, employeeclick2, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 63.0, SELECTDROPDOWN, deductionsection, ID, 6CA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 71.0, SELECTDROPDOWN, deductionremark, ID, B-AS PER SECTION 206C(1A)</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, 27eqamountofpurchase, ID, 2.3123121223123E13</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, errorclick1, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, invalidamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 43.0, SETTEXT, 27eqamountofpayment, ID, 2.3123121223123E13</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, errorclick2, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, invalidamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductionincometaxrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, deductionincometaxrate, ID, 128.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, errorclick3, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, surgerateerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 72.0, CLICK, deductionincometax, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 73.0, SETTEXT, deductionincometax, ID, 3.4628376482734602E18</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 74.0, CLICK, errorclick4, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, invalidsurgeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 76.0, CLICK, deductionsurgerate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 77.0, SETTEXT, deductionsurgerate, ID, 262.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 78.0, CLICK, errorclick5, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 79.0, VERIFYNOTIFICATION, surgerateerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 80.0, CLICK, deductionsurgeamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 81.0, SETTEXT, deductionsurgeamount, ID, 3.4628376482734602E18</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 82.0, CLICK, errorclick6, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 83.0, VERIFYNOTIFICATION, invalidsurgeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 84.0, CLICK, deductioncessrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 85.0, SETTEXT, deductioncessrate, ID, 262.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 86.0, CLICK, errorclick7, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 87.0, VERIFYNOTIFICATION, surgerateerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 88.0, CLICK, deductioncessamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 89.0, SETTEXT, deductioncessamount, ID, 3.4628376482734602E18</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 90.0, CLICK, errorclick8, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 91.0, VERIFYNOTIFICATION, invalidsurgeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, errorclick9, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, totalamounterror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 92.0, SETTEXT, deducteddate, ID, 20-Oct-2022</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductionamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 95.0, VERIFYNOTIFICATION, invaliddateerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 96.0, CLICK, deductionclearbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 97.0, CLICK, confirmclear, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 98.0, CLICK, deductionbackbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Enter Only Mandatory Fields, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 100.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 101.0, SETTEXT, deductionname, ID, Arun</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 102.0, WAIT, employeeclick2, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 103.0, CLICK, employeeclick2, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 104.0, SELECTDROPDOWN, deductionsection, ID, 6CG</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SELECTDROPDOWN, deductionremark, ID, I-Section 206CCA applicable - Higher rate</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, 27eqamountofpurchase, ID, 8000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 43.0, SETTEXT, 27eqamountofpayment, ID, 10000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SELECTDROPDOWN, deducteeisnonresident, ID, No</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SELECTDROPDOWN, deducteeishavingperestinindia, ID, Yes</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 108.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 112.0, WAIT, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 113.0, CLICK, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 114.0, CLICK, pickdeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 115.0, CLICK, challanselectall, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 120.0, SELECTDROPDOWN, challansectionabbr, NAME, 2AA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 121.0, SELECTDROPDOWN, challantypeofpaymrnt, ID, 200-Payable by Taxpayer</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 122.0, SETTEXT, pickdeductionbsrcode, ID, 2311323.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 123.0, SETTEXT, bankchallanno, ID, 12323.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 124.0, CLICK, clickbsrcode, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 125.0, CLICK, createchallan, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, confirmcreatechallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 126.0, VERIFYNOTIFICATION, challandeductionnotification, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Copy Previous Deduction And Update, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 129.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 130.0, CLICK, deductioneditdeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 131.0, CLICK, copydeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 132.0, SELECTDROPDOWN, deductionremark, ID, I-Section 206CCA applicable - Higher rate</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 133.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 134.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete Single Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 137.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 138.0, CLICK, singlechallanselect, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 139.0, CLICK, deductiondelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 140.0, CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 141.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 143.0, CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 144.0, CLICK, deductiondelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 145.0, CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 146.0, VERIFYNOTIFICATION, deductiondeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Challan, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 148.0, CLICK, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 149.0, CLICK, challanselectall, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 150.0, CLICK, deletechallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 151.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 152.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete Bulk Deductee, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , WAIT, tdstab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, tdstab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deducteetab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 82.0, CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 83.0, CLICK, deletedeductee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 84.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 85.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 27EQ challan mapping, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 9.0, FRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 10.0, CLICK, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 11.0, CLICK, addchallan, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Enter ALL Challan Fields, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 13.0, SETTEXT, challanincometax, ID, 10000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 14.0, SETTEXT, challansurge, ID, 200.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 15.0, SETTEXT, challancess, ID, 204.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 16.0, SETTEXT, challaninterest, ID, 10.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 17.0, SETTEXT, challanotheramount, ID, 120.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 18.0, SETTEXT, challanfee, ID, 10.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 19.0, SETTEXT, challantdsothers, ID, 40.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 20.0, SELECTDROPDOWN, challansection, ID, 4LC</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 21.0, SELECTDROPDOWN, challantypeofpaymrnt, ID, 200-Payable by Taxpayer</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 22.0, SETTEXT, bankchallanno, ID, 12122.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 23.0, SETTEXT, challanbsrcode, ID, 2311323.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 24.0, SETTEXT, challanremarks, ID, Challan Saved Successfully</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 25.0, CLICK, challansave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 26.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 27.0, WAIT, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 28.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 29.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 30.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 31.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 32.0, SETTEXT, deductionname, ID, A</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Verify Add New Employee Button from Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 34.0, CLICK, addnewemployee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 35.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , TRY, copydeducteeno, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 36.0, CLICK, deducteeadd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 37.0, SETTEXT, deducteename, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 38.0, SETTEXT, deducteerefnum, ID, Relyon1234</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 39.0, SETTEXT, deducteepan, XPATH, NYUPF6764N</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 40.0, SELECTDROPDOWN, deducteecode, ID, Other Than Companies</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 41.0, SETTEXT, deducteeaddress, ID, Rajaji nagar</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 42.0, SELECTDROPDOWN, deducteestate, ID, KARNATAKA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 43.0, SETTEXT, deducteeemailid, ID, abc@abc.abc</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 45.0, CLICK, deductesave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 46.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 47.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 48.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 49.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 50.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 51.0, SETTEXT, deductionname, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 52.0, CLICK, deducteeclick, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Enter Valid Deduction Fields And Save, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 54.0, SELECTDROPDOWN, deductionsection, ID, 6CA</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 55.0, SELECTDROPDOWN, deductionremark, ID, A-AS PER SECTION 206C(9)</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, 27eqamountofpurchase, ID, 8000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, 27eqamountofpayment, ID, 1000000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 57.0, CLICK, deductionsurgerate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 58.0, SETTEXT, deductionsurgerate, ID, 2.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 59.0, CLICK, deductionsurgeamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 60.0, SETTEXT, deductionsurgeamount, ID, 8000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 61.0, CLICK, deductioncessrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 62.0, SETTEXT, deductioncessrate, ID, 2.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 63.0, CLICK, deductioncessamount, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 64.0, SETTEXT, deductioncessamount, ID, 8000.8</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 65.0, SETTEXT, us197certno, ID, RSL1234553</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 66.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 67.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Map, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 69.0, WAIT, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 70.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 71.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 72.0, CLICK, challanmappingtab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 73.0, CLICK, allchallans, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 74.0, CLICK, challanmappingcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 76.0, ALERT, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 77.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 78.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 79.0, CLICK, firstdeductionedit, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 80.0, CLICK, deductionincometaxrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 81.0, SETTEXT, deductionincometaxrate, ID, 1.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 82.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 83.0, VERIFYNOTIFICATION, deducteeupdatenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 84.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 85.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 86.0, CLICK, firstdeductionedit, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 87.0, CLICK, copydeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 88.0, SELECTDROPDOWN, deductionsection, ID, 6CD</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 89.0, SELECTDROPDOWN, deductionremark, ID, B-AS PER SECTION 206C(1A)</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqamountofpurchase, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, 27eqamountofpurchase, ID, 8000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqamountofpayment, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, 27eqamountofpayment, ID, 100000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 92.0, CLICK, deductionincometaxrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 93.0, SETTEXT, deductionincometaxrate, ID, 3.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 94.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 95.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 96.0, WAIT, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 97.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 98.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 99.0, CLICK, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 100.0, CLICK, addchallan, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 101.0, SETTEXT, challanincometax, ID, 10000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 102.0, SETTEXT, challansurge, ID, 200.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 103.0, SETTEXT, challancess, ID, 200.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 104.0, SETTEXT, challaninterest, ID, 10.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 105.0, SETTEXT, challanotheramount, ID, 120.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 106.0, SETTEXT, challanfee, ID, 10.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 107.0, SETTEXT, challantdsothers, ID, 40.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 108.0, SELECTDROPDOWN, challansection, ID, 4LC</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 109.0, SELECTDROPDOWN, challantypeofpaymrnt, ID, 200-Payable by Taxpayer</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 110.0, SETTEXT, bankchallanno, ID, 12121.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 111.0, SETTEXT, challanbsrcode, ID, 2311323.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 112.0, SETTEXT, challanremarks, ID, Challan Saved Successfully</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 113.0, CLICK, challansave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 114.0, VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 115.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 116.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, challanmappingtab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, tdsamountfilter, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, filterinput, ID, 10404.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, tdsamountsearch, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, utilizeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, utilizeamount, XPATH, 1.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , ARROWLEFT, utilizeamount, XPATH, ARROW_LEFT</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , ARROWLEFT, utilizeamount, XPATH, ARROW_LEFT</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , ARROWLEFT, utilizeamount, XPATH, ARROW_LEFT</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, utilizeamount, XPATH, 36.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , BACKSPACE, utilizeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, challanmappingcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, mapbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, closesearch, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, selectsecodchallan27e, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, challanmappingcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, mapbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, selectfirstchallan27e, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 118.0, CLICK, challanmappingcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 119.0, CLICK, mapbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductioneditdeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, switchtochallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deletechallanindeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Deduction, ALERT, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 158.0, CLICK, switchchallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 159.0, CLICK, deletechallanindeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 160.0, ALERT, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 161.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 162.0, VERIFYNOTIFICATION, deducteeupdatenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 163.0, CLICK, deductionbackbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 164.0, CLICK, firstdeductionedit, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 165.0, CLICK, challanserialno, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 166.0, CLICK, selectlinkchallan, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 167.0, CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 168.0, VERIFYNOTIFICATION, deducteeupdatenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 169.0, CLICK, deductionbackbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 170.0, CLICK, challanmappingtab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 171.0, CLICK, linkeddeductioncheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, unlinkallbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 172.0, CLICK, confirmunlink, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 173.0, CLICK, linkeddeductioncheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 174.0, CLICK, selectchallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 175.0, CLICK, linkeddeductioncheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 176.0, CLICK, unlinkallbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 177.0, CLICK, confirmunlink, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 178.0, CLICK, linkeddeductioncheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 179.0, CLICK, utilizeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 180.0, WAIT, utilizeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 181.0, CLEAR, utilizeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 182.0, CLICK, utilizeamount, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 183.0, SETEXT, utilizeamount, XPATH, 8.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Deduction, CLICK, mapbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 185.0, CLICK, challanmappingcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 186.0, CLICK, mapbutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 187.0, CLICK, linkeddeductioncheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 188.0, CLICK, unlinkallbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 189.0, CLICK, confirmunlink, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 190.0, CLICK, linkeddeductioncheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 191.0, CLICK, autoadjust, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Challan, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 193.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 194.0, REFRESH, , XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 195.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 196.0, CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 197.0, CLICK, deductiondelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete Bulk Deductee, CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 198.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 199.0, CLICK, adddeduction, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 200.0, SETTEXT, deductionname, ID, Kiran</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 201.0, CLICK, deducteeclick, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 202.0, CLICK, challanserialno, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 203.0, CLICK, selectlinkchallan, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 204.0, SETTEXT, 27eqamountofpurchase, ID, 8000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 202.0, SETTEXT, 27eqamountofpayment, ID, 1000000.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 203.0, SELECTDROPDOWN, deductionsection, ID, 6CH</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 204.0, SELECTDROPDOWN, deductionremark, ID, I-Section 206CCA applicable - Higher rate</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductionincometaxrate, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, deductionincometaxrate, ID, 2.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductionincometax, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , SETTEXT, deductionincometax, ID, 10404.0</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductionsavebutton, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, deducteesavenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, challanmappingtab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, selectfirstchallan27e, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, mappedtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, unlinkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, unlinkbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , WAIT, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductiondelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, deductiondeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, challanselectall, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deletechallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , WAIT, tdstab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, tdstab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deducteetab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deletedeductee, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 27EQ Predict default, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 9.0, CLICK, importtab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 10.0, CLICK, excelimport, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 10.0, SELECTDROPDOWN, fydropdown, XPATH, FY 2022-23</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 11.0, UPLOAD, uploadfile, ID, ./src/test/java/pro/saral/testData/BLRL003775C-TCSForm27EQ1 - Pd.xlsx</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 12.0, UPLOADWARNING, uploadbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 13.0, WAIT, prdictdefaultoption, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 14.0, CLICK, prdictdefaultoption, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, shortcollectionview, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, shortdeductionverify27q, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 15.0, CLICK, shortpaymentview, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 16.0, VERIFYNOTIFICATION, 27eqshortpaymentverify, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 17.0, CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 18.0, CLICK, latepaymentinterestview, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 19.0, VERIFYNOTIFICATION, 27eqlatedeductioninterest, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 20.0, CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 21.0, CLICK, lateCollectioninterestview, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 22.0, VERIFYNOTIFICATION, latepaymentinterestslnoverify27eq, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 23.0, CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 24.0, CLICK, challanstatus, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 25.0, VERIFYNOTIFICATION, 27eqchallanstatusverify, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 26.0, CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 28.0, CLICK, HigherRateCollectionsstatus, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 29.0, VERIFYNOTIFICATION, 27eqhigherrateverify, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 30.0, CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 31.0, CLICK, ChallanDeductionMappingStatusview27eq, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 32.0, VERIFYNOTIFICATION, challadeductionmappingstatusverify27eq, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 33.0, CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, panstatus, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , VERIFYNOTIFICATION, 27eqpanverify, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, predictdefaultback, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 34.0, VERIFYNOTIFICATION, 27eqmappedprice, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 35.0, VERIFYNOTIFICATION, 27equnmappedprice, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 36.0, WAIT, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 37.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 38.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 41.0, CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 42.0, CLICK, deductiondelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 43.0, CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 44.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Challan, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 45.0, CLICK, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 46.0, CLICK, challanselectall, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 47.0, CLICK, deletechallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 48.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 49.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Employee, CLICK, tdstab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 54.0, CLICK, deducteetab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 55.0, CLICK, challanselectall, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 56.0, CLICK, empdelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 57.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 58.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 27EQ Ereturn, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 9.0, CLICK, importtab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 10.0, SELECTDROPDOWN, fydropdown, XPATH, FY 2022-23</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 11.0, SELECTDROPDOWN, quarter, XPATH, Q2</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 12.0, CLICK, excelimport, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 13.0, UPLOAD, uploadfile, ID, ./src/test/java/pro/saral/testData/TDSForm27EQ2_2022-23.xlsx</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , UPLOADWARNING, uploadbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , WAIT, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, editacknumber, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, acknum, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLEAR, acknum, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, acksave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, editdeductor, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductoralternatestdcode, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLEAR, deductoralternatestdcode, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductoralternatenumber, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLEAR, deductoralternatenumber, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, responsiblepersontab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, responsiblepersonstd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLEAR, responsiblepersonstd, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, responsiblepersonnumber, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLEAR, responsiblepersonnumber, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, deductorsave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, savesettings, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: , CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 14.0, WAIT, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 15.0, CLICK, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 16.0, CLICK, generatefuvbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 17.0, WAIT, 27eqereturnvalidation, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 18.0, VERIFYNOTIFICATION, 27eqereturnvalidation, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 19.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 20.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 21.0, CLICK, editdeductor, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 22.0, CLICK, deductorname, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 23.0, CLEAR, deductorname, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 24.0, SETTEXT, deductorname, ID, MONEY CHANGERS PRIVATE LIMITED</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 25.0, CLICK, deductorsave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 26.0, CLICK, savesettings, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 27.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 28.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 29.0, WAIT, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 30.0, CLICK, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 31.0, CLICK, generatefuvbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 32.0, WAIT, viewerroredit, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 33.0, CLICK, viewerroredit, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 34.0, CLICK, viewerroredit, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 35.0, CLICK, deductorname, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 36.0, CLEAR, deductorname, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 37.0, SETTEXT, deductorname, ID, LINK MONEY CHANGERS PRIVATE LIMITED</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 38.0, CLICK, deductorsave, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 39.0, CLICK, savesettings, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 40.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 41.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 42.0, WAIT, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 43.0, CLICK, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 44.0, CLICK, generatefuvbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 45.0, WAIT, 27eqereturnvalidation, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 46.0, VERIFYNOTIFICATION, 27eqereturnvalidation, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Deduction, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 48.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 49.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 50.0, CLICK, 27eqcollection, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 52.0, CLICK, bulkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 53.0, CLICK, deductiondelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 54.0, CLICK, confirmdeleteagain, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 55.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: Delete All Challan, , , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 57.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 58.0, REFRESH, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 59.0, CLICK, challantab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 60.0, CLICK, challanselectall, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 61.0, CLICK, deletechallan, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 62.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 63.0, VERIFYNOTIFICATION, deducteedeletenotification, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 64.0, CLICK, tdstab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 65.0, CLICK, deducteetab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 66.0, CLICK, unlinkcheckbox, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 67.0, CLICK, empdelete, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 68.0, CLICK, confirmdelete, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 70.0, CLICK, 27eqtab, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 71.0, WAIT, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 72.0, CLICK, ereturntab, ID, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 73.0, CLICK, generatefuvbutton, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 74.0, IMPLICTWAIT, , , </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 75.0, CLICK, viewerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 76.0, CLICK, closeerror, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 77.0, CLICK, viewerroredit, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 78.0, VERIFYNOTIFICATION, verifyerrorone, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 79.0, VERIFYNOTIFICATION, veifyerrorthree, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 80.0, VERIFYNOTIFICATION, verifyerrorfour, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Test_27EQ.Testcases_27EQ()'><b>Testcases_27EQ</b><br>Test class: pro.saral.testCases.Test_27EQ<br>Parameters: 81.0, VERIFYNOTIFICATION, verifyerrorfive, XPATH, </td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Test_27EQ@1a407d53</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Upload_Invalid_Excel_And_Check_Errors()'><b>Upload_Invalid_Excel_And_Check_Errors</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Upload_Valid_Conso_And_Check_Sucess_Status()'><b>Upload_Valid_Conso_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Upload_Valid_Excel_And_Check_Sucess_Status()'><b>Upload_Valid_Excel_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Upload_Valid_Master_Excel_And_Check_Sucess_Status()'><b>Upload_Valid_Master_Excel_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27Q_Test.Upload_Valid_Text_And_Check_Sucess_Status()'><b>Upload_Valid_Text_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Import_27Q_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27Q_Test@3498ed</td></tr>
+<tr>
+<td title='pro.saral.testCases.Import_27EQ_Test.Upload_Valid_Text_And_Check_Sucess_Status()'><b>Upload_Valid_Text_And_Check_Sucess_Status</b><br>Test class: pro.saral.testCases.Import_27EQ_Test</td>
+<td></td>
+<td>0</td>
+<td>pro.saral.testCases.Import_27EQ_Test@3d8c7aca</td></tr>
+</table><p>
+</body>
+</html>

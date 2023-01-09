@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GstSaralPro">
+<listeners>
+<listener class-name="pro.saral.utilities.Reporting"/>
+</listeners>
+<test name="GstSaral Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="pro.saral.testCases.Masters"/>
+<class name="pro.saral.testCases.Test_24Q"/>
+<class name="pro.saral.testCases.Import_24Q_Test"/>
+<class name="pro.saral.testCases.Test_26Q"/>
+<class name="pro.saral.testCases.Import_26Q_Test"/>
+<class name="pro.saral.testCases.Test_27Q"/>
+<class name="pro.saral.testCases.Import_27Q_Test"/>
+<class name="pro.saral.testCases.Test_27EQ"/>
+<class name="pro.saral.testCases.Import_27EQ_Test"/>
+</classes> 	
+</test>
+</suite>
